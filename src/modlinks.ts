@@ -82,6 +82,12 @@ export async function parseModLinks(content: string): Promise<ModLinksData> {
         }
 
         mod.repository = getCDATANodeText(manifest, "Repository");
+        if(!mod.repository) {
+            const url = new URL(tlink);
+            if(url.hostname == 'github.com') {
+                url.pathname = url.pathname.substring(0, url.pathname.indexOf('/releases/download/'));
+            }
+        }
 
         const integrationsNode = findXmlNode<ContainerNode>(manifest, "Integrations");
         if (integrationsNode) {
