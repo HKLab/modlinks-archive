@@ -21,6 +21,7 @@ export interface ModLinksManifestData {
     tags: ModTag[];
     authors: string[];
     date?: string;
+    isDeleted?: boolean;
 }
 
 export class ModLinksData {

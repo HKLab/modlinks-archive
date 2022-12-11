@@ -136,6 +136,13 @@ for (let i = 0; i < 20; i++) {
     fetchCommit(i, allCommits[i]);
 }
 
+function setDeleted(ver: ModVersionCollection) {
+    for (const key in ver) {
+        const v = ver[key];
+        v.isDeleted = true;
+    }
+}
+
 let missing = 0;
 for (let i = 0; i < allCommits.length; i++) {
     let result: ModLinksResult = await fetchCommit(i, allCommits[i]);
@@ -158,6 +165,13 @@ for (let i = 0; i < allCommits.length; i++) {
                 modrecord.latestCommit = commit.sha;
             }
             mod.date = commit.commit.author.date;
+        }
+    }
+    if(i == 0) {
+        for (const key in modrecord.mods) {
+            if(!mods.find(x => x.name == key)) {
+                setDeleted(modrecord[key]);
+            }
         }
     }
     if (i % 50 == 0) {
