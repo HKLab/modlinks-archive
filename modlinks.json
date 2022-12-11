@@ -4328,6 +4328,23 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-06-23T02:15:06Z"
+            },
+            "0.6.0.0": {
+                "name": "Godhome Win Loss Tracker",
+                "desc": "Tracks win/loss and hit stats in Hall of Gods and Pantheons.",
+                "version": "0.6.0.0",
+                "link": "https://github.com/royitaqi/HollowKnight.GodhomeWinLossTracker/releases/download/v0.6.0.0/GodhomeWinLossTracker.zip",
+                "dependencies": [
+                    "Osmi",
+                    "Satchel",
+                    "SFCore",
+                    "Vasi"
+                ],
+                "repository": "https://github.com/royitaqi/HollowKnight.GodhomeWinLossTracker/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-11T06:47:36Z"
             }
         },
         "Godseeker Memory Jump": {
@@ -16005,5 +16022,5 @@
             }
         }
     },
-    "latestCommit": "d3dd290876271f78c9008069a342a9ff88f41a6e"
+    "latestCommit": "767be084eec61ca0fec5b556c77b95463d80a69e"
 }
