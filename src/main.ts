@@ -102,6 +102,7 @@ const modlinks: (ModLinksResult | Promise<ModLinksResult>)[] = [];
 modlinks.length = allCommits.length;
 
 async function fetchCommit(cid: number, commit: CommitInfo) {
+    if(!commit) return 'Null Commit'; 
     const r = modlinks[cid];
     if (r) {
         if (r instanceof Promise) return await r;
@@ -120,7 +121,7 @@ async function fetchCommit(cid: number, commit: CommitInfo) {
             };
             //Find Next
             let n_id = modlinks.findIndex(x => x == undefined);
-            if (n_id > 0 && n_id < allCommits.length) {
+            if (n_id > 0 && n_id < allCommits.length && allCommits[n_id]) {
                 fetchCommit(n_id, allCommits[n_id]);
             }
             return result;
@@ -129,7 +130,7 @@ async function fetchCommit(cid: number, commit: CommitInfo) {
             modlinks[id] = e.toString();
             return modlinks[id];
         }
-    })(cid++));
+    })(cid));
 }
 
 for (let i = 0; i < 20; i++) {
@@ -161,16 +162,16 @@ for (let i = 0; i < allCommits.length; i++) {
             mvs[mod.version] = mod;
             if (i > 0) {
                 console.log(`[Mod]${mod.name} - ${mod.version}`);
-            } else {
-                modrecord.latestCommit = commit.sha;
             }
             mod.date = commit.commit.author.date;
         }
     }
     if(i == 0) {
+        modrecord.latestCommit = commit.sha;
         for (const key in modrecord.mods) {
-            if(!mods.find(x => x.name == key)) {
-                setDeleted(modrecord[key]);
+            if(mods.findIndex(x => x.name == key) == -1) {
+                console.log(`A mod that has been removed: ${key}`)
+                setDeleted(modrecord.mods[key]);
             }
         }
     }
