@@ -15841,7 +15841,8 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-03T12:19:53Z"
+                "date": "2022-12-03T12:19:53Z",
+                "isDeleted": true
             }
         },
         "Godhome Win/Loss &amp; Hit Tracker": {
@@ -15859,7 +15860,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-07-21T15:50:07Z"
+                "date": "2022-07-21T15:50:07Z",
+                "isDeleted": true
             }
         },
         "Grassy Knight": {
@@ -15873,7 +15875,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-07-05T05:08:38Z"
+                "date": "2022-07-05T05:08:38Z",
+                "isDeleted": true
             }
         },
         "Archipleago Map Mod": {
@@ -15896,7 +15899,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-23T02:15:06Z"
+                "date": "2022-06-23T02:15:06Z",
+                "isDeleted": true
             },
             "0.0.1.0": {
                 "name": "Archipleago Map Mod",
@@ -15917,7 +15921,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-15T04:00:42Z"
+                "date": "2022-06-15T04:00:42Z",
+                "isDeleted": true
             }
         },
         "CharmMod": {
@@ -15934,7 +15939,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-06-14T03:15:05Z"
+                "date": "2022-06-14T03:15:05Z",
+                "isDeleted": true
             },
             "1.8.30.3": {
                 "name": "CharmMod",
@@ -15949,7 +15955,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-06-13T19:04:03Z"
+                "date": "2022-06-13T19:04:03Z",
+                "isDeleted": true
             },
             "6.1.6": {
                 "name": "CharmMod",
@@ -15961,7 +15968,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-06-08T08:21:13Z"
+                "date": "2022-06-08T08:21:13Z",
+                "isDeleted": true
             }
         },
         "Randomizer 3.5": {
@@ -15977,7 +15985,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-08T18:12:12Z"
+                "date": "2022-01-08T18:12:12Z",
+                "isDeleted": true
             },
             "3.5.0.0": {
                 "name": "Randomizer 3.5",
@@ -15991,9 +16000,10 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2021-12-25T10:49:05Z"
+                "date": "2021-12-25T10:49:05Z",
+                "isDeleted": true
             }
         }
     },
-    "latestCommit": "8d0a26dfc12ccd11246497016157e5cd42589075"
+    "latestCommit": "d3dd290876271f78c9008069a342a9ff88f41a6e"
 }
