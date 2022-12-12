@@ -91,100 +91,104 @@ console.log(`x-ratelimit-reset: ${new Date(resetTime * 1000).toLocaleString()} $
 console.log(`x-ratelimit-remaining: ${rate}`);
 console.log(`Total commits: ${allCommits.length} ${page}`);
 
-if (allCommits.length == 0) {
-    console.log('Nothing can do');
-    process.exit(0);
-}
-
-console.log(`Fetch ModLinks`);
-
-const modlinks: (ModLinksResult | Promise<ModLinksResult>)[] = [];
-modlinks.length = allCommits.length;
-
-async function fetchCommit(cid: number, commit: CommitInfo) {
-    if(!commit) return 'Null Commit'; 
-    const r = modlinks[cid];
-    if (r) {
-        if (r instanceof Promise) return await r;
-        return r;
+await (async function () {
+    if (allCommits.length == 0) {
+        console.log('Nothing can do');
+        return;
     }
-    return await (modlinks[cid] = (async function (id) {
-        try {
-            const tree = (await axios.get<TreeInfo>(commit.commit.tree.url)).data;
-            const ml = tree.tree.find(x => x.path.toLowerCase() == 'modlinks.xml');
-            if (!ml) throw `Not found modlinks.xml in ${commit.sha}`;
-            const content = Buffer.from((await axios.get<FileContent>(ml.url)).data.content, 'base64').toString('utf-8');
-            console.log(`[${id}] ${commit.sha} is done`);
-            const result = modlinks[id] = {
-                data: await parseModLinks(content),
-                commit: commit
-            };
-            //Find Next
-            let n_id = modlinks.findIndex(x => x == undefined);
-            if (n_id > 0 && n_id < allCommits.length && allCommits[n_id]) {
-                fetchCommit(n_id, allCommits[n_id]);
+
+    console.log(`Fetch ModLinks`);
+
+    const modlinks: (ModLinksResult | Promise<ModLinksResult>)[] = [];
+    modlinks.length = allCommits.length;
+
+    async function fetchCommit(cid: number, commit: CommitInfo) {
+        if (!commit) return 'Null Commit';
+        const r = modlinks[cid];
+        if (r) {
+            if (r instanceof Promise) return await r;
+            return r;
+        }
+        return await (modlinks[cid] = (async function (id) {
+            try {
+                const tree = (await axios.get<TreeInfo>(commit.commit.tree.url)).data;
+                const ml = tree.tree.find(x => x.path.toLowerCase() == 'modlinks.xml');
+                if (!ml) throw `Not found modlinks.xml in ${commit.sha}`;
+                const content = Buffer.from((await axios.get<FileContent>(ml.url)).data.content, 'base64').toString('utf-8');
+                console.log(`[${id}] ${commit.sha} is done`);
+                const result = modlinks[id] = {
+                    data: await parseModLinks(content),
+                    commit: commit
+                };
+                //Find Next
+                let n_id = modlinks.findIndex(x => x == undefined);
+                if (n_id > 0 && n_id < allCommits.length && allCommits[n_id]) {
+                    fetchCommit(n_id, allCommits[n_id]);
+                }
+                return result;
+            } catch (e) {
+                console.log(e);
+                modlinks[id] = e.toString();
+                return modlinks[id];
             }
-            return result;
-        } catch (e) {
-            console.log(e);
-            modlinks[id] = e.toString();
-            return modlinks[id];
-        }
-    })(cid));
-}
-
-for (let i = 0; i < 20; i++) {
-    fetchCommit(i, allCommits[i]);
-}
-
-function setDeleted(ver: ModVersionCollection) {
-    for (const key in ver) {
-        const v = ver[key];
-        v.isDeleted = true;
+        })(cid));
     }
-}
 
-let missing = 0;
-for (let i = 0; i < allCommits.length; i++) {
-    let result: ModLinksResult = await fetchCommit(i, allCommits[i]);
-    if (typeof result == 'string') {
-        missing++;
-        continue;
+    for (let i = 0; i < 20; i++) {
+        fetchCommit(i, allCommits[i]);
     }
-    const { data, commit } = result;
-    const mods = data.mods;
-    for (const mod of mods) {
-        let mvs = modrecord.mods[mod.name];
-        if (!mvs) {
-            modrecord.mods[mod.name] = mvs = {};
+
+    function setDeleted(ver: ModVersionCollection) {
+        for (const key in ver) {
+            const v = ver[key];
+            v.isDeleted = true;
         }
-        if (!mvs[mod.version]) {
-            mvs[mod.version] = mod;
-            if (i > 0) {
-                console.log(`[Mod]${mod.name} - ${mod.version}`);
+    }
+
+    let missing = 0;
+    for (let i = 0; i < allCommits.length; i++) {
+        let result: ModLinksResult = await fetchCommit(i, allCommits[i]);
+        if (typeof result == 'string') {
+            missing++;
+            continue;
+        }
+        const { data, commit } = result;
+        const mods = data.mods;
+        for (const mod of mods) {
+            let mvs = modrecord.mods[mod.name];
+            if (!mvs) {
+                modrecord.mods[mod.name] = mvs = {};
             }
-            mod.date = commit.commit.author.date;
-        }
-    }
-    if(i == 0) {
-        modrecord.latestCommit = commit.sha;
-        for (const key in modrecord.mods) {
-            if(mods.findIndex(x => x.name == key) == -1) {
-                console.log(`A mod that has been removed: ${key}`)
-                setDeleted(modrecord.mods[key]);
+            if (!mvs[mod.version]) {
+                mvs[mod.version] = mod;
+                if (i > 0) {
+                    console.log(`[Mod]${mod.name} - ${mod.version}`);
+                }
+                mod.date = commit.commit.author.date;
             }
         }
+        if (i == 0) {
+            modrecord.latestCommit = commit.sha;
+            for (const key in modrecord.mods) {
+                if (mods.findIndex(x => x.name == key) == -1) {
+                    console.log(`A mod that has been removed: ${key}`)
+                    setDeleted(modrecord.mods[key]);
+                }
+            }
+        }
+        if (i % 50 == 0) {
+            extra.outputJSONSync(getJsonPath(), modrecord, {
+                spaces: 4
+            });
+        }
+        console.log(`(${i++})${commit.commit.author.date} '${commit.commit.author.name}' ${commit.sha}`);
     }
-    if (i % 50 == 0) {
-        extra.outputJSONSync(getJsonPath(), modrecord, {
-            spaces: 4
-        });
-    }
-    console.log(`(${i++})${commit.commit.author.date} '${commit.commit.author.name}' ${commit.sha}`);
-}
+    console.log(`${missing} is missing`);
+    extra.outputJSONSync(getJsonPath(), modrecord, {
+        spaces: 4
+    });
 
-extra.outputJSONSync(getJsonPath(), modrecord, {
-    spaces: 4
-});
+})();
 
-console.log(`${missing} is missing`);
+
+
