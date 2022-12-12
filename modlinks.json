@@ -10578,6 +10578,22 @@
                 ],
                 "authors": [],
                 "date": "2022-12-11T17:51:39Z"
+            },
+            "1.2.2.0": {
+                "name": "Rando Vanilla Tracker",
+                "desc": "Randomizer 4 add-on for tracking non-randomized items.",
+                "version": "1.2.2.0",
+                "link": "https://github.com/syyePhenomenol/HollowKnight.RandoVanillaTracker/releases/download/v1.2.2/RandoVanillaTracker.zip",
+                "dependencies": [
+                    "Randomizer 4"
+                ],
+                "repository": "https://github.com/syyePhenomenol/HollowKnight.RandoVanillaTracker/",
+                "integrations": [],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [],
+                "date": "2022-12-12T11:59:50Z"
             }
         },
         "RandoChecksCounter": {
@@ -16076,5 +16092,5 @@
             }
         }
     },
-    "latestCommit": "36b4be20332baa7bc166d90ad638d6ea2a51fb41"
+    "latestCommit": "d7993cf8db9ffc52c599ecb9a56062f23fc16f94"
 }
