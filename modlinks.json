@@ -1760,6 +1760,25 @@
                 ],
                 "authors": [],
                 "date": "2022-11-06T16:08:12Z"
+            },
+            "2.0.0.0": {
+                "name": "Curse Randomizer",
+                "desc": "Randomizer 4 connection that adds additional cursed options and mimics.",
+                "version": "2.0.0.0",
+                "link": "https://github.com/Korzer420/CurseRandomizer/releases/download/v2.0.0/CurseRandomizer.zip",
+                "dependencies": [
+                    "Randomizer 4",
+                    "Benchwarp"
+                ],
+                "repository": "https://github.com/Korzer420/CurseRandomizer",
+                "integrations": [],
+                "tags": [
+                    "Gameplay"
+                ],
+                "authors": [
+                    "Korz"
+                ],
+                "date": "2022-12-12T04:20:15Z"
             }
         },
         "Custom Knight": {
@@ -12570,6 +12589,25 @@
                 ],
                 "authors": [],
                 "date": "2022-11-05T02:21:06Z"
+            },
+            "1.1.8381.616": {
+                "name": "RandoSettingsManager",
+                "desc": "A Hollow Knight mod that reimplements and extends Randomizer's settings sharing and preset management with rich support for connection mods.\n        ",
+                "version": "1.1.8381.616",
+                "link": "https://github.com/BadMagic100/RandoSettingsManager/releases/download/v1.1.8381.616/RandoSettingsManager.zip",
+                "dependencies": [
+                    "MenuChanger",
+                    "Randomizer 4"
+                ],
+                "repository": "https://github.com/BadMagic100/RandoSettingsManager",
+                "integrations": [],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [
+                    "BadMagic"
+                ],
+                "date": "2022-12-12T04:20:15Z"
             }
         },
         "RandoStats": {
@@ -16038,5 +16076,5 @@
             }
         }
     },
-    "latestCommit": "912b5e6be2266b788e869b12fa004b2966b48ca6"
+    "latestCommit": "36b4be20332baa7bc166d90ad638d6ea2a51fb41"
 }
