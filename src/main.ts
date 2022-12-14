@@ -68,7 +68,11 @@ let breakGet = false;
 let rate = 5000;
 let resetTime = 0;
 
+
 let endCommit = modrecord.latestCommit ?? '1a7399ead20a40c363091a5f0afea8be923f5ea8';
+if(process.env.MODLINK_FULL) {
+    endCommit = '1a7399ead20a40c363091a5f0afea8be923f5ea8';
+}
 
 console.log(`Fetch commits`);
 while (!breakGet && (allCommits.length < 100 || process.env.MODLINK_FULL)) {
@@ -164,8 +168,8 @@ await (async function () {
                 if (i > 0) {
                     console.log(`[Mod]${mod.name} - ${mod.version}`);
                 }
-                mod.date = commit.commit.author.date;
             }
+            mvs[mod.version].date = commit.commit.author.date;
         }
         if (i == 0) {
             modrecord.latestCommit = commit.sha;
