@@ -13,7 +13,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "AbsoluteZote": {
@@ -31,7 +31,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "AbsoluteZote",
@@ -70,7 +70,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.2.0": {
                 "name": "Additional Challenge",
@@ -106,7 +106,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "AdditionalMaps": {
@@ -131,7 +131,7 @@
                     "HelenSB",
                     "kapkekes"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.1.0": {
                 "name": "AdditionalMaps",
@@ -196,7 +196,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "Archipelago": {
@@ -215,7 +215,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.0.0": {
                 "name": "Archipelago",
@@ -329,7 +329,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.1.2": {
                 "name": "Archipelago Map Mod",
@@ -366,7 +366,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.1.0.0": {
                 "name": "AsciiCamera",
@@ -399,7 +399,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Aspidnest": {
@@ -413,7 +413,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Aspidnest",
@@ -441,7 +441,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "BenchRando": {
@@ -460,7 +460,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "BenchRando",
@@ -560,7 +560,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "3.2.0.0": {
                 "name": "Benchwarp",
@@ -648,7 +648,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.1.0": {
                 "name": "BenchWarpFix",
@@ -675,7 +675,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Better Void Heart": {
@@ -693,7 +693,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Better Void Heart",
@@ -726,7 +726,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "BingoBoard",
@@ -759,7 +759,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.1.2.1": {
                 "name": "BingoUI",
@@ -831,7 +831,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.2": {
                 "name": "BlindRadiance",
@@ -865,7 +865,7 @@
                     "Italy",
                     "Link459"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Cagney Carnation": {
@@ -883,7 +883,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Carefree Grimm": {
@@ -901,7 +901,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Carefree Grimm",
@@ -952,7 +952,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.2": {
                 "name": "Challenge Mode",
@@ -1038,7 +1038,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Charm Crab": {
@@ -1057,7 +1057,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "Charm Crab",
@@ -1113,7 +1113,7 @@
                     "Exempt-Medic",
                     "Aeternalis"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "CharmPreset": {
@@ -1132,7 +1132,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "CompanionCloth": {
@@ -1150,7 +1150,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "CompassAlwaysOn": {
@@ -1167,7 +1167,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "CondensedSpoilerLogger": {
@@ -1183,7 +1183,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T08:04:09Z"
             },
             "1.7.0.0": {
                 "name": "CondensedSpoilerLogger",
@@ -1211,7 +1211,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-22T20:56:20Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.0": {
                 "name": "CondensedSpoilerLogger",
@@ -1366,7 +1366,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.8265.3801": {
                 "name": "ConnectionMetadataInjector",
@@ -1448,7 +1448,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "ContinueCountdown",
@@ -1477,7 +1477,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Core.FsmUtil": {
@@ -1497,7 +1497,7 @@
                     "Flibber",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Corrupted Kin": {
@@ -1513,7 +1513,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.0.2": {
                 "name": "Corrupted Kin",
@@ -1587,7 +1587,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "CriticalSlash": {
@@ -1606,7 +1606,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "CriticalSlash",
@@ -1641,7 +1641,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "Crystalblobbles",
@@ -1705,7 +1705,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-11-10T11:10:15Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.5.0.0": {
                 "name": "Curse Randomizer",
@@ -1808,7 +1808,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.1.0.0": {
                 "name": "Custom Knight",
@@ -1876,7 +1876,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.0.1": {
                 "name": "Custom Trial",
@@ -1907,7 +1907,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.1.0": {
                 "name": "CustomAudio",
@@ -1978,7 +1978,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.1.0": {
                 "name": "CustomBgm",
@@ -2022,7 +2022,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "CustomGroupInjector",
@@ -2056,7 +2056,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.6.5.1": {
                 "name": "CustomImage",
@@ -2173,7 +2173,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "CustomLogicInjector": {
@@ -2189,7 +2189,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "CustomLogicInjector",
@@ -2245,7 +2245,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.0.0": {
                 "name": "CustomPantheon",
@@ -2300,7 +2300,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "CustomPoolInjector",
@@ -2344,7 +2344,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Cyclone Real Combat": {
@@ -2362,7 +2362,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Cyclone Throws": {
@@ -2380,7 +2380,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Damage Values": {
@@ -2396,7 +2396,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Darkness": {
@@ -2412,7 +2412,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "DarknessRandomizer": {
@@ -2436,7 +2436,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.0.0": {
                 "name": "DarknessRandomizer",
@@ -2734,7 +2734,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Dead Cells The Queen": {
@@ -2752,7 +2752,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Dead Cells Time Keeper": {
@@ -2770,7 +2770,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Dead Quirrel": {
@@ -2788,7 +2788,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "DeathCounter": {
@@ -2806,7 +2806,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.8.0.0": {
                 "name": "DeathCounter",
@@ -2911,7 +2911,7 @@
                     "pseudorandom",
                     "Magnetic Pizza"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.9.9": {
                 "name": "DebugMod",
@@ -3053,7 +3053,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "DecorationMaster",
@@ -3087,7 +3087,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "Discord Rich Presence": {
@@ -3101,7 +3101,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.0": {
                 "name": "Discord Rich Presence",
@@ -3139,7 +3139,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "DoubleRadiance": {
@@ -3155,7 +3155,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Dream Warpers": {
@@ -3175,7 +3175,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "DumbEnemy": {
@@ -3191,7 +3191,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.0.0": {
                 "name": "DumbEnemy",
@@ -3238,7 +3238,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "EmoteWheel": {
@@ -3255,7 +3255,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Empty Menu": {
@@ -3269,7 +3269,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Enemy HP Bar": {
@@ -3289,7 +3289,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "3.1.3.0": {
                 "name": "Enemy HP Bar",
@@ -3430,7 +3430,7 @@
                     "SFGrenade",
                     "nesrak1"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.1.0": {
                 "name": "EnemyChanger",
@@ -3457,7 +3457,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Everwatchers": {
@@ -3476,7 +3476,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Everwatchers",
@@ -3526,7 +3526,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "FallDamage": {
@@ -3544,7 +3544,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Fast Travel": {
@@ -3558,7 +3558,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.2": {
                 "name": "Fast Travel",
@@ -3588,7 +3588,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "FireIsSmolBrain": {
@@ -3608,7 +3608,7 @@
                     "SFGrenade",
                     "Fireb0rn"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "FountainPreview": {
@@ -3624,7 +3624,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.1.0": {
                 "name": "FountainPreview",
@@ -3668,7 +3668,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.0.0": {
                 "name": "Fragile Purse",
@@ -3694,7 +3694,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "FragileStrengthForNailArts",
@@ -3734,7 +3734,7 @@
                     "Library"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.2.0": {
                 "name": "FrogCore",
@@ -3764,7 +3764,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.3.2.0": {
                 "name": "FStats",
@@ -3876,7 +3876,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "FuryMod": {
@@ -3894,7 +3894,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Fyrenest": {
@@ -3913,7 +3913,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T08:04:09Z"
             },
             "2.12.45.65": {
                 "name": "Fyrenest",
@@ -3929,7 +3929,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-07-21T15:50:57Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.10.41.38": {
                 "name": "Fyrenest",
@@ -3993,7 +3993,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Game Object Dump",
@@ -4022,7 +4022,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.1": {
                 "name": "Gatling Aspid",
@@ -4065,7 +4065,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GeoLog": {
@@ -4085,7 +4085,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GhostHunter": {
@@ -4103,7 +4103,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.3.0.0": {
                 "name": "GhostHunter",
@@ -4131,7 +4131,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GlassSoul": {
@@ -4152,7 +4152,7 @@
                     "753",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.2": {
                 "name": "GlassSoul",
@@ -4182,7 +4182,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.0.0": {
                 "name": "God Soul",
@@ -4266,7 +4266,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-07-23T12:16:30Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.4.3.0": {
                 "name": "Godhome Win Loss Tracker",
@@ -4389,7 +4389,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-11T14:59:23Z"
             }
         },
         "Godseeker Memory Jump": {
@@ -4405,7 +4405,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GodSeekerPlus": {
@@ -4426,7 +4426,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.21.0.0": {
                 "name": "GodSeekerPlus",
@@ -4789,7 +4789,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Gorb Plus": {
@@ -4809,7 +4809,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GPZ Precepts": {
@@ -4829,7 +4829,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "Graphic Options": {
@@ -4850,7 +4850,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-25T16:39:08Z"
             },
             "1.5.0.0": {
                 "name": "Graphic Options",
@@ -4869,7 +4869,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-11-24T19:46:55Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Gravity Mod": {
@@ -4886,7 +4886,7 @@
                     "HKLab",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "GreatChampion": {
@@ -4904,7 +4904,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.0.0": {
                 "name": "GreatChampion",
@@ -4963,7 +4963,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "GrubTrain": {
@@ -4979,7 +4979,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.4.0.0": {
                 "name": "GrubTrain",
@@ -5009,7 +5009,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Hat": {
@@ -5023,7 +5023,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Heal On Wall": {
@@ -5042,7 +5042,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Heal On Wall",
@@ -5078,7 +5078,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.3.0.0": {
                 "name": "HealthShare",
@@ -5140,7 +5140,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Hide Mod List": {
@@ -5158,7 +5158,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.2.0": {
                 "name": "Hide Mod List",
@@ -5188,7 +5188,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HitboxOnly": {
@@ -5202,7 +5202,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.0.0": {
                 "name": "HitboxOnly",
@@ -5246,7 +5246,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HKMirror": {
@@ -5264,7 +5264,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.0.1": {
                 "name": "HKMirror",
@@ -5306,7 +5306,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HKMP": {
@@ -5320,7 +5320,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.2.1.0": {
                 "name": "HKMP",
@@ -5455,7 +5455,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.5.0": {
                 "name": "HKMP HealthDisplay",
@@ -5535,7 +5535,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.0.6": {
                 "name": "HKMP Prop Hunt",
@@ -5625,7 +5625,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.2.0.0": {
                 "name": "HKMP Tag",
@@ -5669,7 +5669,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "HKMP.ModDiff",
@@ -5712,7 +5712,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.3.0.0": {
                 "name": "HkmpPouch",
@@ -5768,7 +5768,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.0.0": {
                 "name": "HKTimer",
@@ -5795,7 +5795,7 @@
                     "Library"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.10.4.0": {
                 "name": "HKTool",
@@ -6143,7 +6143,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "3.4.0.0": {
                 "name": "HKTracker",
@@ -6190,7 +6190,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HollowPoint": {
@@ -6206,7 +6206,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HollowTwitch": {
@@ -6222,7 +6222,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HowwowKnyight": {
@@ -6236,7 +6236,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "HueShifter": {
@@ -6254,7 +6254,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.2.0.0": {
                 "name": "HueShifter",
@@ -6302,7 +6302,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "ICExtraDeployers",
@@ -6332,7 +6332,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Inferno King Grimm": {
@@ -6348,7 +6348,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "4.1.0.2": {
                 "name": "Inferno King Grimm",
@@ -6423,7 +6423,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "InfiniteNotches": {
@@ -6437,7 +6437,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Input Buffers": {
@@ -6455,7 +6455,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.3.0": {
                 "name": "Input Buffers",
@@ -6503,7 +6503,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.1.0": {
                 "name": "Invincibility Monitor",
@@ -6530,7 +6530,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.8.0": {
                 "name": "ItemChanger",
@@ -6674,7 +6674,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "ItemChangerDataLoader",
@@ -6722,7 +6722,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.5.2.0": {
                 "name": "ItemSync",
@@ -6987,7 +6987,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Konpanion": {
@@ -7003,7 +7003,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Kronk": {
@@ -7021,7 +7021,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.0.0": {
                 "name": "Kronk",
@@ -7071,7 +7071,7 @@
                     "SFGrenade",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.1": {
                 "name": "LanguageSupport",
@@ -7116,7 +7116,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.0.0": {
                 "name": "LoadNormalizer",
@@ -7160,7 +7160,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-11-11T23:36:00Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.1.7.0": {
                 "name": "Lore Master",
@@ -7748,7 +7748,7 @@
                 "authors": [
                     "Korz"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-03T12:19:53Z"
             },
             "1.2.0.0": {
                 "name": "Lore Master",
@@ -7788,7 +7788,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-25T16:39:08Z"
             },
             "1.0.2.0": {
                 "name": "Lost Artifacts",
@@ -7809,7 +7809,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-10-22T07:33:18Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "Lost Artifacts",
@@ -7869,7 +7869,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.8265.3907": {
                 "name": "MagicUI",
@@ -8063,7 +8063,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.3.8344.387": {
                 "name": "MajorItemByAreaTracker",
@@ -8246,7 +8246,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.0.0": {
                 "name": "Mantis Gods",
@@ -8293,7 +8293,7 @@
                     "Library"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-07T16:50:41Z"
             },
             "1.0.4.0": {
                 "name": "MapChanger",
@@ -8312,7 +8312,7 @@
                     "Library"
                 ],
                 "authors": [],
-                "date": "2022-11-13T15:13:26Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.3.0": {
                 "name": "MapChanger",
@@ -8406,7 +8406,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Mash Slash": {
@@ -8424,7 +8424,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Mask Maker Notches": {
@@ -8444,7 +8444,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.1": {
                 "name": "Mask Maker Notches",
@@ -8512,7 +8512,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.0": {
                 "name": "Memesong",
@@ -8544,7 +8544,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "Menderbug's Revenge": {
@@ -8560,7 +8560,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "MenuChanger": {
@@ -8574,7 +8574,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.5.0": {
                 "name": "MenuChanger",
@@ -8661,7 +8661,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Mirrored Hallownest": {
@@ -8675,7 +8675,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.2.0.0": {
                 "name": "Mirrored Hallownest",
@@ -8714,7 +8714,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ModScript": {
@@ -8728,7 +8728,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ModTerminal": {
@@ -8749,7 +8749,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "MoreDoors": {
@@ -8774,7 +8774,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-05T07:09:06Z"
             },
             "2.0.3.0": {
                 "name": "MoreDoors",
@@ -8820,7 +8820,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-11-17T07:29:34Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.0.0": {
                 "name": "MoreDoors",
@@ -9188,7 +9188,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "MoreSaves": {
@@ -9212,7 +9212,7 @@
                     "Mulhima",
                     "Phenomenol"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.7.8.0": {
                 "name": "MoreSaves",
@@ -9302,7 +9302,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "MultiWorld": {
@@ -9319,7 +9319,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-10T15:21:20Z"
             },
             "1.0.1.0": {
                 "name": "MultiWorld",
@@ -9334,7 +9334,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-19T23:36:46Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.5.2.0": {
                 "name": "MultiWorld",
@@ -9363,7 +9363,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.6": {
                 "name": "MultiWorldLib",
@@ -9458,7 +9458,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.9.0.0": {
                 "name": "MylaFlower",
@@ -9490,7 +9490,7 @@
                 "authors": [
                     "Exempt-Medic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             }
         },
         "NailsmithBackPay": {
@@ -9508,7 +9508,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Negative Nail": {
@@ -9522,7 +9522,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "NeverMuffle": {
@@ -9541,7 +9541,7 @@
                     "SFGrenade",
                     "Clazex"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Nightmare Spark": {
@@ -9561,7 +9561,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.1": {
                 "name": "Nightmare Spark",
@@ -9615,7 +9615,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "NoSpiders": {
@@ -9631,7 +9631,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-07T16:50:41Z"
             },
             "1.1.0.0": {
                 "name": "NoSpiders",
@@ -9645,7 +9645,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-10-24T14:35:05Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "NoSpiders",
@@ -9673,7 +9673,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "OrbTracker": {
@@ -9691,7 +9691,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.3.0": {
                 "name": "OrbTracker",
@@ -9720,7 +9720,7 @@
                     "Library"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.9.0": {
                 "name": "Osmi",
@@ -9878,7 +9878,7 @@
                     "SFGrenade",
                     "Zaliant"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.0": {
                 "name": "Pail Curt",
@@ -9912,7 +9912,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "PaletteSwapper": {
@@ -9926,7 +9926,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Pantheons Hit Counter": {
@@ -9945,7 +9945,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.3.4.0": {
                 "name": "Pantheons Hit Counter",
@@ -10067,7 +10067,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.2.4.0": {
                 "name": "ParryKnight",
@@ -10138,7 +10138,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "PlayerDataManager": {
@@ -10154,7 +10154,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.4.1.0": {
                 "name": "PlayerDataManager",
@@ -10181,7 +10181,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "press g to dab": {
@@ -10198,7 +10198,7 @@
                     "Italy",
                     "Link459"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Propeller Knight": {
@@ -10216,7 +10216,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "PurenailCore": {
@@ -10232,7 +10232,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.1.0": {
                 "name": "PurenailCore",
@@ -10306,7 +10306,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.1.0.0": {
                 "name": "PureZote",
@@ -10349,7 +10349,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "4.6.0.0": {
                 "name": "QoL",
@@ -10448,7 +10448,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "QuirrelFlower": {
@@ -10469,7 +10469,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.0": {
                 "name": "QuirrelFlower",
@@ -10505,7 +10505,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "RadianceExtras",
@@ -10542,7 +10542,7 @@
                     "SFGrenade",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.0.0": {
                 "name": "RadiantMenu",
@@ -10574,7 +10574,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.0": {
                 "name": "RainbowEggs",
@@ -10620,7 +10620,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-07T03:37:20Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.0": {
                 "name": "Rando Vanilla Tracker",
@@ -10701,7 +10701,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Random Pantheons": {
@@ -10717,7 +10717,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "Random Pantheons",
@@ -10757,7 +10757,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "3.0.6.0": {
                 "name": "RandoMapMod",
@@ -10925,7 +10925,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.0.0": {
                 "name": "RandomCharm",
@@ -10968,7 +10968,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "3.0.1.0": {
                 "name": "RandomCompanions",
@@ -11018,7 +11018,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.1.3": {
                 "name": "RandomGravityChange",
@@ -11053,7 +11053,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-09T21:26:33Z"
             },
             "1.2.3.4": {
                 "name": "Randomizable Levers",
@@ -11089,7 +11089,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-18T22:13:57Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.3.2": {
                 "name": "Randomizable Levers",
@@ -11395,7 +11395,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "4.0.8.0": {
                 "name": "Randomizer 4",
@@ -11585,7 +11585,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.6.2.0": {
                 "name": "Randomizer Map S",
@@ -12044,7 +12044,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.5.0": {
                 "name": "RandomizerCore",
@@ -12131,7 +12131,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "RandomizerSettingsRandomizer",
@@ -12238,7 +12238,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-09T21:26:33Z"
             },
             "0.6.2.0": {
                 "name": "RandomTeleport",
@@ -12260,7 +12260,7 @@
                 "authors": [
                     "Mulhima"
                 ],
-                "date": "2022-11-11T23:36:00Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.6.1.0": {
                 "name": "RandomTeleport",
@@ -12358,7 +12358,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-28T17:48:34Z"
             },
             "1.4.8.0": {
                 "name": "RandoPlus",
@@ -12376,7 +12376,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-22T20:56:20Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.7.1": {
                 "name": "RandoPlus",
@@ -12685,7 +12685,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-11-15T04:58:27Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.8344.8876": {
                 "name": "RandoSettingsManager",
@@ -12738,7 +12738,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-12T04:20:05Z"
             }
         },
         "RandoStats": {
@@ -12763,7 +12763,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.8312.5192": {
                 "name": "RandoStats",
@@ -12876,7 +12876,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.3.0": {
                 "name": "RandoZoomZoom",
@@ -12948,7 +12948,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.2.1.3": {
                 "name": "RecentItemsDisplay",
@@ -13091,7 +13091,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ReopenCityDoor": {
@@ -13108,7 +13108,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-28T17:48:34Z"
             },
             "1.0.1.1": {
                 "name": "ReopenCityDoor",
@@ -13123,7 +13123,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-06T18:53:56Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "ReopenCityDoor",
@@ -13206,7 +13206,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ReverseKnight": {
@@ -13222,7 +13222,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Sanic": {
@@ -13238,7 +13238,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Satchel": {
@@ -13258,7 +13258,7 @@
                     "Mulhima",
                     "Ruttie"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.8.8.0": {
                 "name": "Satchel",
@@ -13398,7 +13398,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-09T21:26:33Z"
             }
         },
         "ScreenshotMachine": {
@@ -13415,7 +13415,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SeedSummon": {
@@ -13433,7 +13433,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SFCore": {
@@ -13452,7 +13452,7 @@
                     "SFGrenade",
                     "Clazex"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.4.5": {
                 "name": "SFCore",
@@ -13662,7 +13662,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ShieldParry": {
@@ -13678,7 +13678,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.0.1": {
                 "name": "ShieldParry",
@@ -13724,7 +13724,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SilkSong (but not really)": {
@@ -13744,7 +13744,7 @@
                     "Ruttie",
                     "Mulhima"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Sit Button": {
@@ -13760,7 +13760,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SkillUpgrades": {
@@ -13778,7 +13778,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.11.3.2": {
                 "name": "SkillUpgrades",
@@ -14004,7 +14004,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SmolKnight": {
@@ -14020,7 +14020,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SpeedRunQoL": {
@@ -14042,7 +14042,7 @@
                     "pseudorandom",
                     "Constructive Cynicism"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.5.5.0": {
                 "name": "SpeedRunQoL",
@@ -14094,7 +14094,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.9.4.1": {
                 "name": "SpoilerViewerMod",
@@ -14268,7 +14268,7 @@
                 "authors": [
                     "SFGrenade"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "SteelSoulHUD": {
@@ -14282,7 +14282,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Test of Teamwork": {
@@ -14320,7 +14320,7 @@
                     "Fireb0rn",
                     "Astral Ruby"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T22:30:54Z"
             },
             "1.5.76.57640": {
                 "name": "Test of Teamwork",
@@ -14355,7 +14355,7 @@
                     "Fireb0rn",
                     "Astral Ruby"
                 ],
-                "date": "2022-01-22T16:30:54Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.5.76.57639": {
                 "name": "Test of Teamwork",
@@ -14388,7 +14388,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.5.1": {
                 "name": "The Glimmering Realm",
@@ -14638,7 +14638,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "ThecurseofSly": {
@@ -14654,7 +14654,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.0": {
                 "name": "ThecurseofSly",
@@ -14686,7 +14686,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-04T13:15:36Z"
             },
             "1.1.8345.32566": {
                 "name": "TheRealJournalRando",
@@ -14706,7 +14706,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-11-06T18:53:56Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.8344.8891": {
                 "name": "TheRealJournalRando",
@@ -14897,7 +14897,7 @@
                     "Mulhima",
                     "ygsbzr"
                 ],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Toggleable Bindings": {
@@ -14913,7 +14913,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "TrandoPlus": {
@@ -14933,7 +14933,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-01T08:04:09Z"
             },
             "1.4.3.1": {
                 "name": "TrandoPlus",
@@ -14951,7 +14951,7 @@
                 ],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-06T18:53:56Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.4.3.0": {
                 "name": "TrandoPlus",
@@ -15134,7 +15134,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-12-05T07:09:06Z"
             },
             "1.3.4.0": {
                 "name": "Transcendence",
@@ -15150,7 +15150,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-11-10T11:10:15Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.3.3.0": {
                 "name": "Transcendence",
@@ -15330,7 +15330,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "TribeOfBattle": {
@@ -15351,7 +15351,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.1.0": {
                 "name": "TribeOfBattle",
@@ -15431,7 +15431,7 @@
                     "Cosmetic"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "Unity Explorer": {
@@ -15445,7 +15445,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.0.5": {
                 "name": "Unity Explorer",
@@ -15534,7 +15534,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.8.2.0": {
                 "name": "UnityExplorerPlus",
@@ -15820,7 +15820,7 @@
                     "Boss"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.0.1.0": {
                 "name": "Uumuu Plus",
@@ -15858,7 +15858,7 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "2.0.0.0": {
                 "name": "Vanilla Map Mod",
@@ -15949,7 +15949,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             }
         },
         "WeaverCore": {
@@ -15963,7 +15963,7 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "1.1.0.0": {
                 "name": "WeaverCore",
@@ -16028,7 +16028,7 @@
                     "Gameplay"
                 ],
                 "authors": [],
-                "date": "2022-12-12T11:59:50Z"
+                "date": "2022-11-24T20:16:09Z"
             },
             "0.0.0.0": {
                 "name": "Zote Killer",
@@ -16061,7 +16061,7 @@
                 "authors": [
                     "BadMagic"
                 ],
-                "date": "2022-08-28T21:49:33Z",
+                "date": "2022-11-24T20:16:09Z",
                 "isDeleted": true
             }
         },

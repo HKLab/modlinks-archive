@@ -75,8 +75,8 @@ if(process.env.MODLINK_FULL) {
 }
 
 console.log(`Fetch commits`);
-while (!breakGet && (allCommits.length < 100 || process.env.MODLINK_FULL)) {
-    const result = await axios.get<CommitInfo[]>(`https://api.github.com/repos/hk-modding/modlinks/commits?page=${page}&per_page=100`);
+while (!breakGet && (allCommits.length < 30 || process.env.MODLINK_FULL)) {
+    const result = await axios.get<CommitInfo[]>(`https://api.github.com/repos/hk-modding/modlinks/commits?page=${page}&per_page=30`);
     const header = result.headers as AxiosRequestHeaders;
     rate = Number.parseInt(header.get('x-ratelimit-remaining', undefined)?.toString() ?? '0')
     resetTime = Number.parseInt(header.get('x-ratelimit-reset', undefined)?.toString() ?? '0')
@@ -119,7 +119,6 @@ await (async function () {
                 const ml = tree.tree.find(x => x.path.toLowerCase() == 'modlinks.xml');
                 if (!ml) throw `Not found modlinks.xml in ${commit.sha}`;
                 const content = Buffer.from((await axios.get<FileContent>(ml.url)).data.content, 'base64').toString('utf-8');
-                console.log(`[${id}] ${commit.sha} is done`);
                 const result = modlinks[id] = {
                     data: await parseModLinks(content),
                     commit: commit
@@ -160,16 +159,22 @@ await (async function () {
         const mods = data.mods;
         for (const mod of mods) {
             let mvs = modrecord.mods[mod.name];
+            let isFirst = false;
             if (!mvs) {
                 modrecord.mods[mod.name] = mvs = {};
             }
             if (!mvs[mod.version]) {
+                isFirst = true;
                 mvs[mod.version] = mod;
                 if (i > 0) {
                     console.log(`[Mod]${mod.name} - ${mod.version}`);
                 }
             }
-            mvs[mod.version].date = commit.commit.author.date;
+            const m = mvs[mod.version];
+            if(isFirst || process.env.MODLINK_FULL) {
+                m.date = commit.commit.author.date;
+            }
+            
         }
         if (i == 0) {
             modrecord.latestCommit = commit.sha;
