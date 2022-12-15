@@ -9943,6 +9943,27 @@
                 ],
                 "authors": [],
                 "date": "2021-12-26T02:26:13Z"
+            },
+            "1.5.2.0": {
+                "name": "Pail Curt",
+                "desc": "This is the Pale Court mod.\nEnjoy!",
+                "version": "1.5.2.0",
+                "link": "https://github.com/SFGrenade/Pail-Curt/releases/download/v1.5.2/Pail-Curt.zip",
+                "dependencies": [
+                    "FrogCore",
+                    "SFCore",
+                    "Vasi"
+                ],
+                "repository": "https://github.com/SFGrenade/Pail-Curt/",
+                "integrations": [],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [
+                    "SFGrenade",
+                    "Zaliant"
+                ],
+                "date": "2022-12-15T15:59:43Z"
             }
         },
         "Pale Prince": {
@@ -16285,5 +16306,5 @@
             }
         }
     },
-    "latestCommit": "8d277577a15677f67ec72799e269de68e82c9af2"
+    "latestCommit": "f16f19a074cb65281baa2c647d24b5da9b5334fc"
 }
