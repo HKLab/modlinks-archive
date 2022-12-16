@@ -16092,6 +16092,18 @@
                 "tags": [],
                 "authors": [],
                 "date": "2021-11-22T12:05:42Z"
+            },
+            "1.1.0.2": {
+                "name": "WeaverCore",
+                "desc": "Core mod required for mods built with WeaverCore, such as Inferno King Grimm and Corrupted Kin",
+                "version": "1.1.0.2",
+                "link": "https://github.com/nickc01/WeaverCore/releases/download/v1.1.0.2/WeaverCore.zip",
+                "dependencies": [],
+                "repository": "https://github.com/nickc01/WeaverCore/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-16T23:26:52Z"
             }
         },
         "Zote Killer": {
@@ -16306,5 +16318,5 @@
             }
         }
     },
-    "latestCommit": "f16f19a074cb65281baa2c647d24b5da9b5334fc"
+    "latestCommit": "7c09b4287cbc674012bf922f9f064fcba4de2c4c"
 }
