@@ -10750,6 +10750,22 @@
                 ],
                 "authors": [],
                 "date": "2022-12-14T16:27:25Z"
+            },
+            "1.2.3.0": {
+                "name": "Rando Vanilla Tracker",
+                "desc": "Randomizer 4 add-on for tracking non-randomized items.",
+                "version": "1.2.3.0",
+                "link": "https://github.com/syyePhenomenol/HollowKnight.RandoVanillaTracker/releases/download/v1.2.3/RandoVanillaTracker.zip",
+                "dependencies": [
+                    "Randomizer 4"
+                ],
+                "repository": "https://github.com/syyePhenomenol/HollowKnight.RandoVanillaTracker/",
+                "integrations": [],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [],
+                "date": "2022-12-17T21:00:06Z"
             }
         },
         "RandoChecksCounter": {
@@ -13726,6 +13742,23 @@
                 "tags": [],
                 "authors": [],
                 "date": "2021-11-22T12:05:42Z"
+            },
+            "1.5.6.0": {
+                "name": "SFCore",
+                "desc": "Library mod used by other mods.",
+                "version": "1.5.6.0",
+                "link": "https://github.com/SFGrenade/SFCore/releases/download/v1.5.6/SFCore.zip",
+                "dependencies": [],
+                "repository": "https://github.com/SFGrenade/SFCore/",
+                "integrations": [],
+                "tags": [
+                    "Library"
+                ],
+                "authors": [
+                    "SFGrenade",
+                    "Clazex"
+                ],
+                "date": "2022-12-17T21:00:06Z"
             }
         },
         "ShadeControl": {
@@ -16338,5 +16371,5 @@
             }
         }
     },
-    "latestCommit": "5bea94bde0f1ff6d822b94b524d4e739fe3b5c64"
+    "latestCommit": "35a885d8a47601f9c9fcd8f748b5a7d51b3e0970"
 }
