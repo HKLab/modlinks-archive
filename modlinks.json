@@ -16316,7 +16316,27 @@
                 "date": "2021-12-19T01:35:51Z",
                 "isDeleted": true
             }
+        },
+        "PvP Arena": {
+            "1.5.1.0": {
+                "name": "PvP Arena",
+                "desc": "This mod adds a PvP arena with an invisible entrance right of the bench in Dirtmouth.",
+                "version": "1.5.1.0",
+                "link": "https://github.com/SFGrenade/PvpArena/releases/download/v1.5.1/PvpArena.zip",
+                "dependencies": [
+                    "SFCore"
+                ],
+                "repository": "https://github.com/SFGrenade/PvpArena/",
+                "integrations": [],
+                "tags": [
+                    "Expansion"
+                ],
+                "authors": [
+                    "SFGrenade"
+                ],
+                "date": "2022-12-17T14:40:02Z"
+            }
         }
     },
-    "latestCommit": "7c09b4287cbc674012bf922f9f064fcba4de2c4c"
+    "latestCommit": "5bea94bde0f1ff6d822b94b524d4e739fe3b5c64"
 }
