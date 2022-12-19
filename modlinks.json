@@ -1829,6 +1829,25 @@
                     "Korz"
                 ],
                 "date": "2022-12-19T12:26:07Z"
+            },
+            "2.0.2.0": {
+                "name": "Curse Randomizer",
+                "desc": "Randomizer 4 connection that adds additional cursed options and mimics.",
+                "version": "2.0.2.0",
+                "link": "https://github.com/Korzer420/CurseRandomizer/releases/download/v2.0.2/CurseRandomizer.zip",
+                "dependencies": [
+                    "Randomizer 4",
+                    "Benchwarp"
+                ],
+                "repository": "https://github.com/Korzer420/CurseRandomizer",
+                "integrations": [],
+                "tags": [
+                    "Gameplay"
+                ],
+                "authors": [
+                    "Korz"
+                ],
+                "date": "2022-12-19T16:28:07Z"
             }
         },
         "Custom Knight": {
@@ -16390,5 +16409,5 @@
             }
         }
     },
-    "latestCommit": "a696561d56035caa6c53eae838f7eb891375d289"
+    "latestCommit": "38fa2420d2be65689a50e1b7b2f97e74ee493121"
 }
