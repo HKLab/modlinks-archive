@@ -11706,7 +11706,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-08-19T04:02:05Z"
+                "date": "2022-08-19T04:02:05Z",
+                "isDeleted": true
             },
             "2.6.2.0": {
                 "name": "Randomizer Map S",
@@ -11732,7 +11733,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-07-06T13:54:34Z"
+                "date": "2022-07-06T13:54:34Z",
+                "isDeleted": true
             },
             "2.6.1.0": {
                 "name": "Randomizer Map S",
@@ -11758,7 +11760,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-07-04T11:32:24Z"
+                "date": "2022-07-04T11:32:24Z",
+                "isDeleted": true
             },
             "2.6.0.0": {
                 "name": "Randomizer Map S",
@@ -11784,7 +11787,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-24T11:19:15Z"
+                "date": "2022-06-24T11:19:15Z",
+                "isDeleted": true
             },
             "2.5.2.0": {
                 "name": "Randomizer Map S",
@@ -11810,7 +11814,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-12T12:19:37Z"
+                "date": "2022-06-12T12:19:37Z",
+                "isDeleted": true
             },
             "2.5.1.0": {
                 "name": "Randomizer Map S",
@@ -11836,7 +11841,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-06-07T03:48:42Z"
+                "date": "2022-06-07T03:48:42Z",
+                "isDeleted": true
             },
             "2.5.0.0": {
                 "name": "Randomizer Map S",
@@ -11862,7 +11868,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-05-28T03:15:35Z"
+                "date": "2022-05-28T03:15:35Z",
+                "isDeleted": true
             },
             "2.4.5.0": {
                 "name": "Randomizer Map S",
@@ -11887,7 +11894,8 @@
                     "Utility"
                 ],
                 "authors": [],
-                "date": "2022-05-13T04:19:45Z"
+                "date": "2022-05-13T04:19:45Z",
+                "isDeleted": true
             },
             "2.4.4.0": {
                 "name": "Randomizer Map S",
@@ -11906,7 +11914,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-05-08T05:47:31Z"
+                "date": "2022-05-08T05:47:31Z",
+                "isDeleted": true
             },
             "2.4.3.0": {
                 "name": "Randomizer Map S",
@@ -11924,7 +11933,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-05-06T05:03:55Z"
+                "date": "2022-05-06T05:03:55Z",
+                "isDeleted": true
             },
             "2.4.2.0": {
                 "name": "Randomizer Map S",
@@ -11942,7 +11952,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-04-24T20:49:50Z"
+                "date": "2022-04-24T20:49:50Z",
+                "isDeleted": true
             },
             "2.4.0.0": {
                 "name": "Randomizer Map S",
@@ -11960,7 +11971,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-04-06T06:46:56Z"
+                "date": "2022-04-06T06:46:56Z",
+                "isDeleted": true
             },
             "2.3.3.0": {
                 "name": "Randomizer Map S",
@@ -11978,7 +11990,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-03-28T08:50:47Z"
+                "date": "2022-03-28T08:50:47Z",
+                "isDeleted": true
             },
             "2.3.2.0": {
                 "name": "Randomizer Map S",
@@ -11996,7 +12009,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-03-19T05:01:56Z"
+                "date": "2022-03-19T05:01:56Z",
+                "isDeleted": true
             },
             "2.3.1.0": {
                 "name": "Randomizer Map S",
@@ -12014,7 +12028,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-03-19T04:41:01Z"
+                "date": "2022-03-19T04:41:01Z",
+                "isDeleted": true
             },
             "2.3.0.0": {
                 "name": "Randomizer Map S",
@@ -12030,7 +12045,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-03-01T12:54:22Z"
+                "date": "2022-03-01T12:54:22Z",
+                "isDeleted": true
             },
             "1.5.0.0": {
                 "name": "Randomizer Map S",
@@ -12044,7 +12060,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-08T18:35:57Z"
+                "date": "2022-01-08T18:35:57Z",
+                "isDeleted": true
             },
             "2.2.0.0": {
                 "name": "Randomizer Map S",
@@ -12060,7 +12077,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-02-11T11:48:15Z"
+                "date": "2022-02-11T11:48:15Z",
+                "isDeleted": true
             },
             "2.1.1.0": {
                 "name": "Randomizer Map S",
@@ -12076,7 +12094,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-29T02:07:38Z"
+                "date": "2022-01-29T02:07:38Z",
+                "isDeleted": true
             },
             "2.1.0.0": {
                 "name": "Randomizer Map S",
@@ -12092,7 +12111,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-28T16:15:17Z"
+                "date": "2022-01-28T16:15:17Z",
+                "isDeleted": true
             },
             "2.0.2.0": {
                 "name": "Randomizer Map S",
@@ -12107,7 +12127,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-22T16:28:41Z"
+                "date": "2022-01-22T16:28:41Z",
+                "isDeleted": true
             },
             "2.0.1.0": {
                 "name": "Randomizer Map S",
@@ -12122,7 +12143,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-22T00:41:42Z"
+                "date": "2022-01-22T00:41:42Z",
+                "isDeleted": true
             },
             "2.0.0.0": {
                 "name": "Randomizer Map S",
@@ -12137,7 +12159,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-21T15:16:48Z"
+                "date": "2022-01-21T15:16:48Z",
+                "isDeleted": true
             },
             "1.0.0.0": {
                 "name": "Randomizer Map S",
@@ -12151,7 +12174,8 @@
                 "integrations": [],
                 "tags": [],
                 "authors": [],
-                "date": "2022-01-08T18:11:22Z"
+                "date": "2022-01-08T18:11:22Z",
+                "isDeleted": true
             }
         },
         "RandomizerCore": {
@@ -16409,5 +16433,5 @@
             }
         }
     },
-    "latestCommit": "38fa2420d2be65689a50e1b7b2f97e74ee493121"
+    "latestCommit": "63ed666e8de3a6dd7db014b11fefcc2934c6859a"
 }
