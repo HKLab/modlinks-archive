@@ -5019,6 +5019,24 @@
                     "Exempt-Medic"
                 ],
                 "date": "2022-12-01T22:49:52Z"
+            },
+            "1.1.0.28852": {
+                "name": "Grimmchild Anywhere",
+                "desc": "Grimmchild can spawn during TMG and NKG fights",
+                "version": "1.1.0.28852",
+                "link": "https://github.com/Exempt-Medic/GrimmchildAnywhere/releases/download/v1.1.0.28852/GrimmchildAnywhere.zip",
+                "dependencies": [
+                    "SFCore"
+                ],
+                "repository": "https://github.com/Exempt-Medic/GrimmchildAnywhere",
+                "integrations": [],
+                "tags": [
+                    "Gameplay"
+                ],
+                "authors": [
+                    "Exempt-Medic"
+                ],
+                "date": "2022-12-24T16:07:07Z"
             }
         },
         "GrubTrain": {
@@ -16521,5 +16539,5 @@
             }
         }
     },
-    "latestCommit": "01410461b110e9441042e1a14cc64a837164d82e"
+    "latestCommit": "47a73f0e2e0228ec07aa9ad31641306a2b3151d0"
 }
