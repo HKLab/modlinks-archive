@@ -12360,6 +12360,22 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-03-05T17:48:25Z"
+            },
+            "1.0.1.2": {
+                "name": "RandomizerSettingsRandomizer",
+                "desc": "Add-on for Randomizer 4 that allows you to randomize settings. See the README for info on how to select settings to randomize.",
+                "version": "1.0.1.2",
+                "link": "https://github.com/flibber-hk/HollowKnight.RandomizerSettingsRandomizer/releases/download/v1.0.1.2/RandomizerSettingsRandomizer.zip",
+                "dependencies": [
+                    "Randomizer 4"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.RandomizerSettingsRandomizer/",
+                "integrations": [
+                    "RandoSettingsManager"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-24T15:20:40Z"
             }
         },
         "RandomTeleport": {
@@ -12791,6 +12807,24 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-02-06T14:28:52Z"
+            },
+            "1.5.1.1": {
+                "name": "RandoPlus",
+                "desc": "Add-on for Randomizer 4 that adds more Randomization options; for example, randomize Mr Mushroom locations.",
+                "version": "1.5.1.1",
+                "link": "https://github.com/flibber-hk/HollowKnight.RandoPlus/releases/download/v1.5.1.1/RandoPlus.zip",
+                "dependencies": [
+                    "ItemChanger",
+                    "ConnectionMetadataInjector"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.RandoPlus/",
+                "integrations": [
+                    "Randomizer 4",
+                    "RandoSettingsManager"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-24T15:20:40Z"
             }
         },
         "RandoSettingsManager": {
@@ -13334,6 +13368,21 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-04-17T06:40:00Z"
+            },
+            "1.0.2.1": {
+                "name": "ReopenCityDoor",
+                "desc": "Opens the locked door between Fungal Wastes and City (above Elder Hu's grave / near the elevator to Crossroads).",
+                "version": "1.0.2.1",
+                "link": "https://github.com/flibber-hk/HollowKnight.ReopenCityDoor/releases/download/v1.0.2.1/ReopenCityDoor.zip",
+                "dependencies": [],
+                "repository": "https://github.com/flibber-hk/HollowKnight.ReopenCityDoor/",
+                "integrations": [
+                    "Randomizer 4",
+                    "RandoSettingsManager"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-24T15:20:40Z"
             }
         },
         "ResetCharmNotches": {
@@ -14167,6 +14216,22 @@
                 "tags": [],
                 "authors": [],
                 "date": "2021-12-14T18:25:37Z"
+            },
+            "0.11.3.4": {
+                "name": "SkillUpgrades",
+                "desc": "Provides a collection of upgrades and tweaks to the Knight's Skills. Visit the Mod Menu to enable them.",
+                "version": "0.11.3.4",
+                "link": "https://github.com/flibber-hk/HollowKnight.SkillUpgrades/releases/download/v0.11.3.4/SkillUpgrades.zip",
+                "dependencies": [],
+                "repository": "https://github.com/flibber-hk/HollowKnight.SkillUpgrades/",
+                "integrations": [
+                    "Randomizer 4",
+                    "RandoSettingsManager",
+                    "Vasi"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-24T15:20:40Z"
             }
         },
         "SkipToRadiance": {
@@ -16456,5 +16521,5 @@
             }
         }
     },
-    "latestCommit": "dc7f50aaaf8710d03c4e3ee546b063412ae89dd4"
+    "latestCommit": "01410461b110e9441042e1a14cc64a837164d82e"
 }
