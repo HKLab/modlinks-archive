@@ -16431,7 +16431,30 @@
                 ],
                 "date": "2022-12-17T14:40:02Z"
             }
+        },
+        "Crafted Town": {
+            "0.0.0.1": {
+                "name": "Crafted Town",
+                "desc": "The Crafted Town adds a new location, several spell alternatives and some charm upgrades (on alpha as of now).",
+                "version": "0.0.0.1",
+                "link": "https://github.com/pronoespro/PronoesProMod/releases/download/hollow-knight-mod/PronoesProMod.zip",
+                "dependencies": [
+                    "Satchel",
+                    "SFCore"
+                ],
+                "repository": "https://github.com/pronoespro/PronoesProMod/",
+                "integrations": [],
+                "tags": [
+                    "Expansion",
+                    "Gameplay",
+                    "Cosmetic"
+                ],
+                "authors": [
+                    "PronoesPro"
+                ],
+                "date": "2022-12-24T04:04:23Z"
+            }
         }
     },
-    "latestCommit": "63ed666e8de3a6dd7db014b11fefcc2934c6859a"
+    "latestCommit": "dc7f50aaaf8710d03c4e3ee546b063412ae89dd4"
 }
