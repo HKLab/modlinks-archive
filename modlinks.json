@@ -7891,6 +7891,26 @@
                 ],
                 "authors": [],
                 "date": "2022-08-14T15:36:17Z"
+            },
+            "2.3.0.0": {
+                "name": "Lore Master",
+                "desc": "Adds abilities to lore tablets and certain npc. Offers extra settings for Randomizer 4.",
+                "version": "2.3.0.0",
+                "link": "https://github.com/Korzer420/LoreMaster/releases/download/v2.3.0/LoreMaster.zip",
+                "dependencies": [
+                    "ItemChanger",
+                    "SFCore",
+                    "MenuChanger"
+                ],
+                "repository": "https://github.com/Korzer420/LoreMaster",
+                "integrations": [],
+                "tags": [
+                    "Gameplay"
+                ],
+                "authors": [
+                    "Korz"
+                ],
+                "date": "2022-12-26T17:11:58Z"
             }
         },
         "Lost Artifacts": {
@@ -16616,5 +16636,5 @@
             }
         }
     },
-    "latestCommit": "bd4cc3a859f03d62b4c34a3f34835743e7f8168b"
+    "latestCommit": "08dbd55e713e6f90f4d685ca259bd40389bb8007"
 }
