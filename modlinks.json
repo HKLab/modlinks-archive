@@ -6241,6 +6241,20 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-01-27T02:22:16Z"
+            },
+            "1.11.7.0": {
+                "name": "HKTool",
+                "desc": "A library mod",
+                "version": "1.11.7.0",
+                "link": "https://github.com/HKLab/HollowKnightMod.Tool/releases/download/v1.11.7.0/Output.zip",
+                "dependencies": [],
+                "repository": "https://github.com/HKLab/HollowKnightMod.Tool/",
+                "integrations": [],
+                "tags": [
+                    "Library"
+                ],
+                "authors": [],
+                "date": "2022-12-26T05:29:59Z"
             }
         },
         "HKTracker": {
@@ -16561,7 +16575,46 @@
                 ],
                 "date": "2022-12-24T04:04:23Z"
             }
+        },
+        "Backdash": {
+            "0.0.0.2": {
+                "name": "Backdash",
+                "desc": "Allows player to use back dash in the game",
+                "version": "0.0.0.2",
+                "link": "https://github.com/HKLab/HK.BackDash/releases/download/v0/Output.zip",
+                "dependencies": [
+                    "HKTool"
+                ],
+                "repository": "https://github.com/HKLab/HK.BackDash/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-26T05:29:59Z"
+            }
+        },
+        "DreamShield Coop": {
+            "1.0.0.0": {
+                "name": "DreamShield Coop",
+                "desc": "Mod that allows coop with a 2nd or 3rd player as a dreamshield or grimmchild clone. Support for other mods to easily add more.",
+                "version": "1.0.0.0",
+                "link": "https://github.com/RedFrog6002/BetterDreamShieldCoop/releases/download/1.0.0.0/BetterDreamShieldCoop.zip",
+                "dependencies": [
+                    "FrogCore",
+                    "Satchel"
+                ],
+                "repository": "https://github.com/RedFrog6002/BetterDreamShieldCoop",
+                "integrations": [
+                    "Custom Knight"
+                ],
+                "tags": [
+                    "Library"
+                ],
+                "authors": [
+                    "RedFrog"
+                ],
+                "date": "2022-12-26T05:29:59Z"
+            }
         }
     },
-    "latestCommit": "d07c3116c1612eacd14e5021db57bca8ba8b22d4"
+    "latestCommit": "1bf5011a8ca9e6df70d5d9799e88f8832531a135"
 }
