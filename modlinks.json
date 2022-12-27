@@ -13663,6 +13663,24 @@
                 ],
                 "authors": [],
                 "date": "2022-11-10T18:08:36Z"
+            },
+            "0.8.10.0": {
+                "name": "Satchel",
+                "desc": "A bag of tricks for other mods, does nothing by itself, allows other mods to do cool things.",
+                "version": "0.8.10.0",
+                "link": "https://github.com/PrashantMohta/Satchel/releases/download/v0.8.10/Satchel.zip",
+                "dependencies": [],
+                "repository": "https://github.com/PrashantMohta/Satchel/",
+                "integrations": [],
+                "tags": [
+                    "Library"
+                ],
+                "authors": [
+                    "Dandy",
+                    "Mulhima",
+                    "Ruttie"
+                ],
+                "date": "2022-12-27T00:49:56Z"
             }
         },
         "Scatternest": {
@@ -16636,5 +16654,5 @@
             }
         }
     },
-    "latestCommit": "08dbd55e713e6f90f4d685ca259bd40389bb8007"
+    "latestCommit": "e3313c6d0e31b41e5e115a131b0a7ce783f1cc7f"
 }
