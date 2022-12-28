@@ -6332,6 +6332,20 @@
                 "tags": [],
                 "authors": [],
                 "date": "2021-11-22T12:05:42Z"
+            },
+            "1.4.0.1": {
+                "name": "HollowPoint",
+                "desc": "Gives the player a gun, reworks charms and abilities to play around the concept of gun usage",
+                "version": "1.4.0.1",
+                "link": "https://github.com/RedFrog6002/Hollow-Point/releases/download/1.4.0.1/HollowPoint.zip",
+                "dependencies": [
+                    "Vasi"
+                ],
+                "repository": "https://github.com/RedFrog6002/Hollow-Point/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-28T10:59:38Z"
             }
         },
         "HollowTwitch": {
@@ -16676,5 +16690,5 @@
             }
         }
     },
-    "latestCommit": "81e136910b70afdaa4b0c632fdf92c5da4030501"
+    "latestCommit": "cb4dc6b370ab1dbe3f74fe7e38e10e54a54b939e"
 }
