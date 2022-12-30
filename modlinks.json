@@ -3936,6 +3936,23 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-08-17T21:39:25Z"
+            },
+            "1.3.3.0": {
+                "name": "FStats",
+                "desc": "Displays some stats about a run after the credits screen.",
+                "version": "1.3.3.0",
+                "link": "https://github.com/flibber-hk/HollowKnight.FStats/releases/download/v1.3.3.0/FStats.zip",
+                "dependencies": [
+                    "Vasi"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.FStats/",
+                "integrations": [
+                    "ItemChanger",
+                    "Benchwarp"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2022-12-30T16:24:16Z"
             }
         },
         "FuryFix": {
@@ -16708,5 +16725,5 @@
             }
         }
     },
-    "latestCommit": "f87d88659cd50f79e27ebe96eae74bda179714f3"
+    "latestCommit": "5f63f98b078056e007df30b14532c79b0b0a9f5c"
 }
