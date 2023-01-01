@@ -16741,7 +16741,25 @@
                 "authors": [],
                 "date": "2023-01-01T10:06:44Z"
             }
+        },
+        "GrassyKnight": {
+            "2.0.0.30723": {
+                "name": "GrassyKnight",
+                "desc": "Tracks and shows you how much grass you've cut.",
+                "version": "2.0.0.30723",
+                "link": "https://github.com/flibber-hk/GrassyKnight/releases/download/v2.0.0.30723/GrassyKnight.zip",
+                "dependencies": [],
+                "repository": "https://github.com/flibber-hk/GrassyKnight",
+                "integrations": [],
+                "tags": [],
+                "authors": [
+                    "itsjohncs",
+                    "dvoyer",
+                    "Flibber"
+                ],
+                "date": "2023-01-01T17:11:26Z"
+            }
         }
     },
-    "latestCommit": "8dffb0930b12ef0722a139a4e1ea2a6ac9393b84"
+    "latestCommit": "fc2472ed3768337715cc07b3bcf2c4f8f6df3835"
 }
