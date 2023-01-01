@@ -12932,6 +12932,24 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-12-24T15:20:40Z"
+            },
+            "1.5.2.0": {
+                "name": "RandoPlus",
+                "desc": "Add-on for Randomizer 4 that adds more Randomization options; for example, randomize Mr Mushroom locations.",
+                "version": "1.5.2.0",
+                "link": "https://github.com/flibber-hk/HollowKnight.RandoPlus/releases/download/v1.5.2.0/RandoPlus.zip",
+                "dependencies": [
+                    "ItemChanger",
+                    "ConnectionMetadataInjector"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.RandoPlus/",
+                "integrations": [
+                    "Randomizer 4",
+                    "RandoSettingsManager"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2023-01-01T21:33:15Z"
             }
         },
         "RandoSettingsManager": {
@@ -15501,6 +15519,24 @@
                 "tags": [],
                 "authors": [],
                 "date": "2022-01-17T19:25:07Z"
+            },
+            "1.5.0.1": {
+                "name": "TrandoPlus",
+                "desc": "Add-on for Randomizer 4 that adds more options to Transition Rando; for example, randomize only doorway transitions.",
+                "version": "1.5.0.1",
+                "link": "https://github.com/flibber-hk/HollowKnight.TrandoPlus/releases/download/v1.5.0.1/TrandoPlus.zip",
+                "dependencies": [
+                    "Randomizer 4",
+                    "ConnectionMetadataInjector",
+                    "RandoPlus"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.TrandoPlus/",
+                "integrations": [
+                    "RandoSettingsManager"
+                ],
+                "tags": [],
+                "authors": [],
+                "date": "2023-01-01T21:33:15Z"
             }
         },
         "Transcendence": {
@@ -16759,7 +16795,24 @@
                 ],
                 "date": "2023-01-01T17:11:26Z"
             }
+        },
+        "ContainerConfig": {
+            "1.0.0.0": {
+                "name": "ContainerConfig",
+                "desc": "Addon for ItemChanger to control how certain checks are presented.",
+                "version": "1.0.0.0",
+                "link": "https://github.com/flibber-hk/HollowKnight.ContainerConfig/releases/download/v1.0.0.0/ContainerConfig.zip",
+                "dependencies": [
+                    "ItemChanger",
+                    "Satchel"
+                ],
+                "repository": "https://github.com/flibber-hk/HollowKnight.ContainerConfig/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2023-01-01T21:33:15Z"
+            }
         }
     },
-    "latestCommit": "fc2472ed3768337715cc07b3bcf2c4f8f6df3835"
+    "latestCommit": "76d3035ced3424522f9d620db9ceb1be081a0807"
 }
