@@ -16723,7 +16723,25 @@
                 ],
                 "date": "2022-12-27T17:47:40Z"
             }
+        },
+        "PaperKnight": {
+            "1.0.0.0": {
+                "name": "PaperKnight",
+                "desc": "Sprites are animated with a paper-spinning effect when objects turn.",
+                "version": "1.0.0.0",
+                "link": "https://github.com/AngelSassin/PaperKnight/releases/download/PaperKnight1.0/PaperKnight.zip",
+                "dependencies": [
+                    "Satchel"
+                ],
+                "repository": "https://github.com/AngelSassin/PaperKnight",
+                "integrations": [],
+                "tags": [
+                    "Cosmetic"
+                ],
+                "authors": [],
+                "date": "2023-01-01T10:06:44Z"
+            }
         }
     },
-    "latestCommit": "5f63f98b078056e007df30b14532c79b0b0a9f5c"
+    "latestCommit": "8dffb0930b12ef0722a139a4e1ea2a6ac9393b84"
 }
