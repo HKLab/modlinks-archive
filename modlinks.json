@@ -201,6 +201,30 @@
                     "kapkekes"
                 ],
                 "date": "2022-12-25T11:29:39Z"
+            },
+            "1.5.3.1": {
+                "name": "AdditionalMaps",
+                "desc": "Adds white palace and godhome maps. The white palace one is next to the bench in the big room. The godhome one is next to the bench above the pantheons.",
+                "version": "1.5.3.1",
+                "link": "https://github.com/SFGrenade/AdditionalMaps/releases/download/v1.5.3.1/AdditionalMaps.zip",
+                "dependencies": [
+                    "SFCore"
+                ],
+                "repository": "https://github.com/SFGrenade/AdditionalMaps/",
+                "integrations": [
+                    "CompassAlwaysOn",
+                    "HKMP"
+                ],
+                "tags": [
+                    "Gameplay",
+                    "Utility"
+                ],
+                "authors": [
+                    "SFGrenade",
+                    "HelenSB",
+                    "kapkekes"
+                ],
+                "date": "2023-01-02T16:27:12Z"
             }
         },
         "Always Furious": {
@@ -16814,5 +16838,5 @@
             }
         }
     },
-    "latestCommit": "76d3035ced3424522f9d620db9ceb1be081a0807"
+    "latestCommit": "e439efe42a20e7c9eae0196f42b24a8b85e85012"
 }
