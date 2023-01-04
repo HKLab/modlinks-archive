@@ -1,7 +1,7 @@
 
 import extra from 'fs-extra'
 import axios, { AxiosRequestHeaders } from 'axios';
-import { ModLinksData, ModLinksManifestData, parseModLinks } from './modlinks.js';
+import { ModCollection, ModLinksData, ModLinksManifestData, ModVersionCollection, parseModLinks } from './modlinks.js';
 import { existsSync } from 'fs';
 
 function getJsonPath() {
@@ -32,13 +32,6 @@ interface TreeInfo {
 interface FileContent {
     content: string
 }
-
-interface ModCollection {
-    mods: Record<string, ModVersionCollection>;
-    latestCommit?: string;
-}
-
-type ModVersionCollection = Record<string, ModLinksManifestData>;
 
 //process.exit();
 const token = process.env.GH_TOKEN;
@@ -115,10 +108,11 @@ await (async function () {
         }
         return await (modlinks[cid] = (async function (id) {
             try {
-                const tree = (await axios.get<TreeInfo>(commit.commit.tree.url)).data;
+                /*const tree = (await axios.get<TreeInfo>(commit.commit.tree.url)).data;
                 const ml = tree.tree.find(x => x.path.toLowerCase() == 'modlinks.xml');
                 if (!ml) throw `Not found modlinks.xml in ${commit.sha}`;
-                const content = Buffer.from((await axios.get<FileContent>(ml.url)).data.content, 'base64').toString('utf-8');
+                const content = Buffer.from((await axios.get<FileContent>(ml.url)).data.content, 'base64').toString('utf-8');*/
+                const content = (await axios.get<string>(`https://raw.githubusercontent.com/hk-modding/modlinks/${commit.sha}/ModLinks.xml`)).data;
                 const result = modlinks[id] = {
                     data: await parseModLinks(content),
                     commit: commit

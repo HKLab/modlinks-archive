@@ -1,5 +1,4 @@
 
-import process from 'process';
 import { Parser, ast } from 'tsxml'
 
 type ContainerNode = ast.ContainerNode<ast.Node>;
@@ -9,6 +8,13 @@ type CDataNode = ast.CDataSectionNode;
 export type ModTag = "Boss" | "Cosmetic" | "Expansion" | "Gameplay" | "Library" | "Utility";
 
 export let currentPlatform: string = "Windows";
+
+export interface ModCollection {
+    mods: Record<string, ModVersionCollection>;
+    latestCommit?: string;
+}
+
+export type ModVersionCollection = Record<string, ModLinksManifestData>;
 
 export interface ModLinksManifestData {
     name: string;
