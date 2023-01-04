@@ -31211,8 +31211,87 @@
             }
         }
     },
-    "Zote Killer": {},
-    "ConnectionSettingsCode": {},
+    "Zote Killer": {
+        "0.1.0.0": {
+            "name": "Zote Killer",
+            "version": "0.1.0.0",
+            "link": "https://github.com/HKLab/ZoteKiller/releases/download/v0.1/ZoteKiller.dll",
+            "modinfo": {
+                "name": "Zote Killer",
+                "desc": "Allows you to kill the Zote in the Colosseum",
+                "version": "0.1.0.0",
+                "link": "https://github.com/HKLab/ZoteKiller/releases/download/v0.1/ZoteKiller.dll",
+                "dependencies": [
+                    "HKTool"
+                ],
+                "repository": "https://github.com/HKLab/ZoteKiller/",
+                "integrations": [],
+                "tags": [
+                    "Gameplay"
+                ],
+                "authors": [],
+                "date": "2022-03-14T06:10:55Z"
+            },
+            "size": 13312,
+            "files": {
+                "Zote Killer.dll": "c0e1d68d361f54f551277a77014f013f808150455fad25f4809615211ed7bf4d"
+            }
+        },
+        "0.0.0.0": {
+            "name": "Zote Killer",
+            "version": "0.0.0.0",
+            "link": "https://github.com/HKLab/ZoteKiller/releases/download/v0.0.0.0/ZoteKiller.dll",
+            "modinfo": {
+                "name": "Zote Killer",
+                "desc": "Allows you to kill the Zote in the Colosseum",
+                "version": "0.0.0.0",
+                "link": "https://github.com/HKLab/ZoteKiller/releases/download/v0.0.0.0/ZoteKiller.dll",
+                "dependencies": [
+                    "HKTool"
+                ],
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-03-12T08:50:40Z"
+            },
+            "size": 13312,
+            "files": {
+                "Zote Killer.dll": "20b69557765cd841ffb9fe01cc5ccae58221252182290c2cc8467fe8fd4ae00a"
+            }
+        }
+    },
+    "ConnectionSettingsCode": {
+        "1.0.8256.6937": {
+            "name": "ConnectionSettingsCode",
+            "version": "1.0.8256.6937",
+            "link": "https://github.com/BadMagic100/ConnectionSettingsCode/releases/download/v1.0.8256.6937/ConnectionSettingsCode.zip",
+            "modinfo": {
+                "name": "ConnectionSettingsCode",
+                "desc": "A library mod that allows randomizer connections to easily encorporate their own settings code.",
+                "version": "1.0.8256.6937",
+                "link": "https://github.com/BadMagic100/ConnectionSettingsCode/releases/download/v1.0.8256.6937/ConnectionSettingsCode.zip",
+                "dependencies": [
+                    "MenuChanger"
+                ],
+                "repository": "https://github.com/BadMagic100/ConnectionSettingsCode/",
+                "integrations": [],
+                "tags": [
+                    "Library"
+                ],
+                "authors": [
+                    "BadMagic"
+                ],
+                "date": "2022-08-28T17:21:47Z",
+                "isDeleted": true
+            },
+            "size": 12165,
+            "files": {
+                "ConnectionSettingsCode.dll": "f76cf9cc0f289cecdfdcacb56a74333135e5a30baae80b88678d1626a1a04117",
+                "ConnectionSettingsCode.pdb": "ea9dff05898b6f36dadf9f574fc45671aacbc484c50c22d028995b9c3b780b71",
+                "README.md": "14b9af1a7a19497456f5bd6f27f2ab97e39b2050cd0df2fcefca7d12d1c25ef6"
+            }
+        }
+    },
     "Godhome Win/Loss &amp; Hit Tracker": {
         "0.5.0.0": {
             "name": "Godhome Win/Loss &amp; Hit Tracker",
@@ -31244,11 +31323,291 @@
         }
     },
     "Grassy Knight": {},
-    "Archipleago Map Mod": {},
-    "CharmMod": {},
-    "Randomizer 3.5": {},
-    "PvP Arena": {},
-    "Crafted Town": {},
+    "Archipleago Map Mod": {
+        "0.0.1.1": {
+            "name": "Archipleago Map Mod",
+            "version": "0.0.1.1",
+            "link": "https://github.com/KonoTyran/HollowKnight.APMapMod/releases/download/v0.1.1/APMapMod.zip",
+            "modinfo": {
+                "name": "Archipleago Map Mod",
+                "desc": "An conversion of the Randomizer Map Mod S that works with Archipelago Randomizer",
+                "version": "0.0.1.1",
+                "link": "https://github.com/KonoTyran/HollowKnight.APMapMod/releases/download/v0.1.1/APMapMod.zip",
+                "dependencies": [
+                    "Archipelago",
+                    "ItemChanger",
+                    "Vasi"
+                ],
+                "repository": "https://github.com/KonoTyran/HollowKnight.APMapMod/",
+                "integrations": [
+                    "AdditionalMaps",
+                    "Benchwarp"
+                ],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [],
+                "date": "2022-06-15T19:36:38Z",
+                "isDeleted": true
+            },
+            "size": 1076115,
+            "files": {
+                "APMapMod.dll": "fff65ebe6945968ccb6dad76cb0e5094e0dc20340813bcb2954caa74f974b913",
+                "APMapMod.pdb": "105f029ffb91596a9dc1987543b72716f8cae12581703fd28f9ece682e6e0803",
+                "README.md": "11bf925182bf8cd9f2d3d35df146ad2ba4106754fcd904958422b671df23e3b6"
+            }
+        },
+        "0.0.1.0": {
+            "name": "Archipleago Map Mod",
+            "version": "0.0.1.0",
+            "link": "https://github.com/KonoTyran/HollowKnight.APMapMod/releases/download/v0.1.0/APMapMod.zip",
+            "modinfo": {
+                "name": "Archipleago Map Mod",
+                "desc": "An conversion of the Randomizer Map Mod S that works with Archipelago Randomizer",
+                "version": "0.0.1.0",
+                "link": "https://github.com/KonoTyran/HollowKnight.APMapMod/releases/download/v0.1.0/APMapMod.zip",
+                "dependencies": [
+                    "Archipelago",
+                    "ItemChanger",
+                    "Vasi"
+                ],
+                "repository": "https://github.com/KonoTyran/HollowKnight.APMapMod/",
+                "integrations": [
+                    "AdditionalMaps",
+                    "Benchwarp"
+                ],
+                "tags": [
+                    "Utility"
+                ],
+                "authors": [],
+                "date": "2022-06-15T04:00:42Z",
+                "isDeleted": true
+            },
+            "size": 1076303,
+            "files": {
+                "APMapMod.dll": "6ca6cd50e5a73aafd50218ef2f9666640a22dd8a60f2f69f3ac445099ae2c46f",
+                "APMapMod.pdb": "4e5ee0e063658115dc865f6c4fbd270c458c0136e21d965232670219e449b466",
+                "README.md": "11bf925182bf8cd9f2d3d35df146ad2ba4106754fcd904958422b671df23e3b6"
+            }
+        }
+    },
+    "CharmMod": {
+        "1.9.33.12": {
+            "name": "CharmMod",
+            "version": "1.9.33.12",
+            "link": "https://github.com/BubkisLord/CharmMod/releases/download/v1.9.33.12/CharmMod.zip",
+            "modinfo": {
+                "name": "CharmMod",
+                "desc": "Creates lots more charms to wear and use.",
+                "version": "1.9.33.12",
+                "link": "https://github.com/BubkisLord/CharmMod/releases/download/v1.9.33.12/CharmMod.zip",
+                "dependencies": [
+                    "SFCore",
+                    "Satchel"
+                ],
+                "repository": "https://github.com/BubkisLord/CharmMod/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-06-14T03:15:05Z",
+                "isDeleted": true
+            },
+            "size": 510652,
+            "files": {
+                "CharmMod\\BetterCDash.png": "087685c4dcd97a8b1122c432b6b453a3539e8990b69394e178b19a5d0c01be8c",
+                "CharmMod\\CharmMod.dll": "1467217ee17521f13b80c7900091612afb3f02c78f6feb492da61a43421b6040",
+                "CharmMod\\CharmMod.pdb": "98163b4ed05450dc7660cc4c1fd17e0f2688733bd26597f5d2cd9be8bfc20cf2",
+                "CharmMod\\ElderStone.png": "f69488ad6c3e97c23eb71050e44197f9011f17c19177f9eb94b4562b74b0c990",
+                "CharmMod\\GeoSwitch.png": "22a077ec076fc94f9e3c065aa34461b9a2ba306a9545104fe4ea6bb84800e2fe",
+                "CharmMod\\GlassCannon.png": "c9a36fdc0fa8a0f7049696db45ab303606a6e7052ad3e94b6edb3fb8f0114c92",
+                "CharmMod\\HealthyShell.png": "1409f82c3f0a5844641545ea37fb1e34b11a00541506bb151e491f63d714585c",
+                "CharmMod\\HKBlessing.png": "6beb71474a1eac2524eb8e043d5dbe632c449ac4d66a25342223404e16d68521",
+                "CharmMod\\HuntersMark.png": "0635143ff0e09fb5b1c74a1164eddbbdfdaa66d8ee55e8a0f6220ac5f6fb9911",
+                "CharmMod\\LessDamage.png": "3d5e7c475ab2d9cf3d1977cdef167a39e3ff90d3cfa774870cca6d96a7a8e37c",
+                "CharmMod\\PowerfulDash.png": "028acdb84e277fb777d6a2915f244fd9344ea143d2b4d9f100a3580fc791036f",
+                "CharmMod\\Quickfall.png": "36fea5598fad869caee1ce282c149730346f43f79583db6d78c512b0aab7c99d",
+                "CharmMod\\RavenousSoul.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\README.md": "aacef6f58cbcb28db3cca07865a686f7e201dcdc8f06cbc8fb5930ed20d5e4b3",
+                "CharmMod\\Slowfall.png": "44a31c27fad33c90e5117b52da84b754384a758b3ba5c76059d7babdded6bc33",
+                "CharmMod\\SlowTime.png": "dc5d6e8e7cf028d8f5caefb53cb0d71cb641386aa31356f267f27ff537356d9f",
+                "CharmMod\\SlyDeal.png": "47d71770aa18c7dcfac603177e40438e6ee3e5045e3d04023b9f8ba6c64bde1c",
+                "CharmMod\\SoulHunger.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\SoulSlow.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\SoulSpeed.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\SoulSpell.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\SoulSwitch.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "CharmMod\\SpeedTime.png": "9cfb5fe53ab732478cd880340ee42f5920ca012dea824bcf13fe31c6e9057e37",
+                "CharmMod\\SturdyNail.png": "30761a5fa881f57a0e1fb808b7015d5d8bd30625140b75dbb40807578e8e439d",
+                "CharmMod\\WealthyAmulet.png": "e9950e48c7aa3c4228c4a10e9d8832cb8cda2a928b49bb30deac5fdea8b2336b",
+                "CharmMod\\ZoteBorn.png": "47d71770aa18c7dcfac603177e40438e6ee3e5045e3d04023b9f8ba6c64bde1c"
+            }
+        },
+        "1.8.30.3": {
+            "name": "CharmMod",
+            "version": "1.8.30.3",
+            "link": "https://github.com/BubkisLord/CharmMod/releases/download/v1.8.30.3/CharmMod.zip",
+            "modinfo": {
+                "name": "CharmMod",
+                "desc": "Creates lots more charms to wear and use.",
+                "version": "1.8.30.3",
+                "link": "https://github.com/BubkisLord/CharmMod/releases/download/v1.8.30.3/CharmMod.zip",
+                "dependencies": [
+                    "SFCore",
+                    "Satchel"
+                ],
+                "repository": "https://github.com/BubkisLord/CharmMod/",
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2022-06-10T07:41:52Z",
+                "isDeleted": true
+            },
+            "size": 468414,
+            "files": {
+                "BetterCDash.png": "087685c4dcd97a8b1122c432b6b453a3539e8990b69394e178b19a5d0c01be8c",
+                "CharmMod.dll": "e65e9b8a956448dd57446e234a8b122000ac878c193dae8136fdcfb0e3eb2080",
+                "CharmMod.pdb": "a94a19f1fbe2970996256ac846c62d56be7ad7d734eee2a285ae8d6ea821b8ad",
+                "GeoSwitch.png": "22a077ec076fc94f9e3c065aa34461b9a2ba306a9545104fe4ea6bb84800e2fe",
+                "GlassCannon.png": "c9a36fdc0fa8a0f7049696db45ab303606a6e7052ad3e94b6edb3fb8f0114c92",
+                "HealthyShell.png": "1409f82c3f0a5844641545ea37fb1e34b11a00541506bb151e491f63d714585c",
+                "HKBlessing.png": "6beb71474a1eac2524eb8e043d5dbe632c449ac4d66a25342223404e16d68521",
+                "HuntersMark.png": "0635143ff0e09fb5b1c74a1164eddbbdfdaa66d8ee55e8a0f6220ac5f6fb9911",
+                "LessDamage.png": "3d5e7c475ab2d9cf3d1977cdef167a39e3ff90d3cfa774870cca6d96a7a8e37c",
+                "PowerfulDash.png": "028acdb84e277fb777d6a2915f244fd9344ea143d2b4d9f100a3580fc791036f",
+                "Quickfall.png": "36fea5598fad869caee1ce282c149730346f43f79583db6d78c512b0aab7c99d",
+                "RavenousSoul.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "README.md": "e95096d43482d7cbce46176ff7f8ee8686c47834f8884b7c1e90239ba765dc62",
+                "Slowfall.png": "44a31c27fad33c90e5117b52da84b754384a758b3ba5c76059d7babdded6bc33",
+                "SlowTime.png": "dc5d6e8e7cf028d8f5caefb53cb0d71cb641386aa31356f267f27ff537356d9f",
+                "SoulHunger.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "SoulSlow.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "SoulSpeed.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "SoulSpell.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "SoulSwitch.png": "a99c65f3376f34f1515d85fd30b8ac6bebc315710e6daf277d84492c32913580",
+                "SpeedTime.png": "9cfb5fe53ab732478cd880340ee42f5920ca012dea824bcf13fe31c6e9057e37",
+                "SturdyNail.png": "30761a5fa881f57a0e1fb808b7015d5d8bd30625140b75dbb40807578e8e439d",
+                "WealthyAmulet.png": "e9950e48c7aa3c4228c4a10e9d8832cb8cda2a928b49bb30deac5fdea8b2336b",
+                "ZoteBorn.png": "47d71770aa18c7dcfac603177e40438e6ee3e5045e3d04023b9f8ba6c64bde1c"
+            }
+        }
+    },
+    "Randomizer 3.5": {
+        "3.5.1.0": {
+            "name": "Randomizer 3.5",
+            "version": "3.5.1.0",
+            "link": "https://github.com/Extremelyd1/HollowKnight.RandomizerMod/releases/download/v3.5.1(742)/RandomizerMod3.5.zip",
+            "modinfo": {
+                "name": "Randomizer 3.5",
+                "desc": "Mixes up charms, spells, abilities, etc. for new saves, difficulty settings and randomization seeds included. Includes a room and area rando mode.",
+                "version": "3.5.1.0",
+                "link": "https://github.com/Extremelyd1/HollowKnight.RandomizerMod/releases/download/v3.5.1(742)/RandomizerMod3.5.zip",
+                "dependencies": [
+                    "Benchwarp",
+                    "QoL"
+                ],
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2021-12-25T20:59:42Z",
+                "isDeleted": true
+            },
+            "size": 6664871,
+            "files": {
+                "RandomizerMod3.5.dll": "574848c469ad25dc153f8481cd19ec24072439f772b374e7d16b78de8272ca97",
+                "README.md": "197277b98faaed9096c5b8affe5ab1369a7b46c778e94fd5f97d8625c4993b3d"
+            }
+        },
+        "3.5.0.0": {
+            "name": "Randomizer 3.5",
+            "version": "3.5.0.0",
+            "link": "https://github.com/Extremelyd1/HollowKnight.RandomizerMod/releases/download/v3.5.0(645)/RandomizerMod3.5.zip",
+            "modinfo": {
+                "name": "Randomizer 3.5",
+                "desc": "Mixes up charms, spells, abilities, etc. for new saves, difficulty settings and randomization seeds included. Includes a room and area rando mode.",
+                "version": "3.5.0.0",
+                "link": "https://github.com/Extremelyd1/HollowKnight.RandomizerMod/releases/download/v3.5.0(645)/RandomizerMod3.5.zip",
+                "dependencies": [
+                    "Benchwarp",
+                    "QoL"
+                ],
+                "integrations": [],
+                "tags": [],
+                "authors": [],
+                "date": "2021-12-19T01:35:51Z",
+                "isDeleted": true
+            },
+            "size": 6664764,
+            "files": {
+                "RandomizerMod3.5.dll": "e14cd7a044e747cfee445d3729b410828a819745178de9491aa50a4d93720496",
+                "README.md": "197277b98faaed9096c5b8affe5ab1369a7b46c778e94fd5f97d8625c4993b3d"
+            }
+        }
+    },
+    "PvP Arena": {
+        "1.5.1.0": {
+            "name": "PvP Arena",
+            "version": "1.5.1.0",
+            "link": "https://github.com/SFGrenade/PvpArena/releases/download/v1.5.1/PvpArena.zip",
+            "modinfo": {
+                "name": "PvP Arena",
+                "desc": "This mod adds a PvP arena with an invisible entrance right of the bench in Dirtmouth.",
+                "version": "1.5.1.0",
+                "link": "https://github.com/SFGrenade/PvpArena/releases/download/v1.5.1/PvpArena.zip",
+                "dependencies": [
+                    "SFCore"
+                ],
+                "repository": "https://github.com/SFGrenade/PvpArena/",
+                "integrations": [],
+                "tags": [
+                    "Expansion"
+                ],
+                "authors": [
+                    "SFGrenade"
+                ],
+                "date": "2022-12-17T14:40:02Z"
+            },
+            "size": 4928340,
+            "files": {
+                "PvpArena.dll": "0ccfe7b15299b208ec1ea3d602b7c1949dc66666c73e1b4215a747b1f44cd8f6",
+                "PvpArena.pdb": "3d65d96fa09889009596d4357892d6aff0f520badd9e559ed412fc07ba59cb6d",
+                "ReadMe.md": "11e1359723f62efa77e0091215845bced2249bb2fcaa1286297b9652d72395f0"
+            }
+        }
+    },
+    "Crafted Town": {
+        "0.0.0.1": {
+            "name": "Crafted Town",
+            "version": "0.0.0.1",
+            "link": "https://github.com/pronoespro/PronoesProMod/releases/download/hollow-knight-mod/PronoesProMod.zip",
+            "modinfo": {
+                "name": "Crafted Town",
+                "desc": "The Crafted Town adds a new location, several spell alternatives and some charm upgrades (on alpha as of now).",
+                "version": "0.0.0.1",
+                "link": "https://github.com/pronoespro/PronoesProMod/releases/download/hollow-knight-mod/PronoesProMod.zip",
+                "dependencies": [
+                    "Satchel",
+                    "SFCore"
+                ],
+                "repository": "https://github.com/pronoespro/PronoesProMod/",
+                "integrations": [],
+                "tags": [
+                    "Expansion",
+                    "Gameplay",
+                    "Cosmetic"
+                ],
+                "authors": [
+                    "PronoesPro"
+                ],
+                "date": "2022-12-24T04:04:23Z"
+            },
+            "size": 19946599,
+            "files": {
+                "PronoesProMod.dll": "3b7c3ca34113f837582e0030f1b396ccc1fd76c786314857d9802fa5a65ccecc",
+                "PronoesProMod.pdb": "5ba62fa73496c07b45c6584032efa3fa11165d4e4980b9defb04d3ada59e68a7",
+                "ReadMe.md": "4e85cb71ad7530657e5522a9f5cedb2c527fdde0abaa86966939f228acb3ad7f"
+            }
+        }
+    },
     "Backdash": {
         "0.0.0.2": {
             "name": "Backdash",
