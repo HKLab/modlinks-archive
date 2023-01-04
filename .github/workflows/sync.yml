@@ -33,6 +33,5 @@ jobs:
         with:
           default_author: github_actions
           add: "modlinks.json"
-          pull: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
