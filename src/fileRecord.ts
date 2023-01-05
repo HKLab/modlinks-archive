@@ -4,19 +4,9 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync } fr
 import extra from "fs-extra";
 import { join, parse } from "path";
 import { URL } from "url";
-import { ModCollection, ModLinksManifestData } from "./modlinks";
+import { ModCollection, ModFileRecord, ModLinksManifestData } from "./types";
 import { zip } from "compressing";
 
-export interface ModFileRecord {
-    name: string;
-    version: string;
-    files?: Record<string, string>;
-    link: string;
-    size?: number;
-    modinfo: ModLinksManifestData;
-}
-
-export type ModFileRecordCollection = Record<string, Record<string, ModFileRecord>>;
 
 const modlinks = extra.readJSONSync("modlinks.json") as ModCollection;
 const timeout = setTimeout(() => {
@@ -24,28 +14,18 @@ const timeout = setTimeout(() => {
     process.exit();
 }, 1000 * 60 * 15);
 
-let record: ModFileRecordCollection = {};
-if (existsSync("filerecords.json")) {
-    record = extra.readJSONSync("filerecords.json") as ModFileRecordCollection;
-}
 
 for (const key in modlinks.mods) {
     const mod = modlinks.mods[key];
-    let modrecord = record[key];
-    if (!modrecord) {
-        modrecord = record[key] = {};
-    }
     for (const ver in mod) {
         const el = mod[ver];
-        let rec = modrecord[ver];
+        let rec = el.ei_files;
         if (rec || !el.link) continue;
 
         rec = {
-            name: key,
-            version: ver,
-            link: el.link,
-            modinfo: el
+            link: el.link
         };
+        
         try {
             const url = new URL(el.link);
             const p = parse(url.pathname);
@@ -54,11 +34,12 @@ for (const key in modlinks.mods) {
                 responseType: 'arraybuffer'
             })).data);
             rec.size = content.length;
+            rec.sha256 = createHash('sha256').update(content).digest('hex');
             if (p.ext !== '.dll') {
                 const dir = "tmp";
                 if (!existsSync(dir)) mkdirSync(dir);
                 await zip.uncompress(content, "tmp");
-                function forEachFiles(root: string, path: string) {
+                function forEachFiles(root: string, path: string, rec: ModFileRecord) {
                     for (const file of readdirSync(root)) {
                         const rf = join(root, file);
                         const f = statSync(rf);
@@ -66,11 +47,11 @@ for (const key in modlinks.mods) {
                             rec.files ??= {};
                             rec.files[join(path, file)] = createHash('sha256').update(readFileSync(rf)).digest('hex');
                         } else if (f.isDirectory()) {
-                            forEachFiles(rf, join(path, file));
+                            forEachFiles(rf, join(path, file), rec);
                         }
                     }
                 }
-                forEachFiles(dir, "");
+                forEachFiles(dir, "", rec);
                 rmSync(dir, {
                     recursive: true
                 });
@@ -79,14 +60,20 @@ for (const key in modlinks.mods) {
                     [el.name + ".dll"]: createHash('sha256').update(content).digest('hex')
                 };
             }
-            modrecord[ver] = rec;
-            extra.writeJSONSync("filerecords.json", record, {
+            el.ei_files = rec;
+            extra.writeJSONSync("modlinks.json", modlinks, {
                 spaces: 4
             });
         } catch (e) {
+            if(el.isDeleted) {
+                rec.noSource = true;
+                el.ei_files = rec;
+                extra.writeJSONSync("modlinks.json", modlinks, {
+                    spaces: 4
+                });
+            }
             console.error(e);
         }
     }
 }
-
 clearTimeout(timeout);

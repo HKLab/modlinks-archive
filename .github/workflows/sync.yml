@@ -26,6 +26,7 @@ jobs:
         run: |
           npm run build
           npm run run-sync
+          npm run run-file
         env: 
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changes

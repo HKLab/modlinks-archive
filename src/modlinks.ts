@@ -1,39 +1,10 @@
 
 import { Parser, ast } from 'tsxml'
+import { ModLinksData, ModLinksManifestData, currentPlatform, ModTag } from './types';
 
 type ContainerNode = ast.ContainerNode<ast.Node>;
 type TextNode = ast.TextNode;
 type CDataNode = ast.CDataSectionNode;
-
-export type ModTag = "Boss" | "Cosmetic" | "Expansion" | "Gameplay" | "Library" | "Utility";
-
-export let currentPlatform: string = "Windows";
-
-export interface ModCollection {
-    mods: Record<string, ModVersionCollection>;
-    latestCommit?: string;
-}
-
-export type ModVersionCollection = Record<string, ModLinksManifestData>;
-
-export interface ModLinksManifestData {
-    name: string;
-    desc: string;
-    version: string;
-    link: string;
-    dependencies: string[];
-    repository: string | undefined;
-    integrations: string[];
-    tags: ModTag[];
-    authors: string[];
-    date?: string;
-    isDeleted?: boolean;
-}
-
-export class ModLinksData {
-    mods: ModLinksManifestData[] = [];
-
-}
 
 
 function findXmlNode<T = Node>(parent: ContainerNode, tagName: string): T | undefined {

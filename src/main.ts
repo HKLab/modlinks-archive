@@ -1,8 +1,9 @@
 
 import extra from 'fs-extra'
 import axios, { AxiosRequestHeaders } from 'axios';
-import { ModCollection, ModLinksData, ModLinksManifestData, ModVersionCollection, parseModLinks } from './modlinks.js';
+import { ModCollection, ModLinksData, ModLinksManifestData, ModVersionCollection } from './types.js';
 import { existsSync } from 'fs';
+import { parseModLinks } from './modlinks.js';
 
 function getJsonPath() {
     return 'modlinks.json';
@@ -163,6 +164,10 @@ await (async function () {
                 if (i > 0) {
                     console.log(`[Mod]${mod.name} - ${mod.version}`);
                 }
+            }
+            if(mvs[mod.version].link != mod.link) {
+                isFirst = true;
+                mvs[mod.version] = mod;
             }
             const m = mvs[mod.version];
             if(isFirst || process.env.MODLINK_FULL) {
