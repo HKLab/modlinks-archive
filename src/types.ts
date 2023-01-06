@@ -22,7 +22,7 @@ export interface ModLinksManifestData {
     name: string;
     desc: string;
     version: string;
-    link: string;
+    link?: string;
     dependencies: string[];
     repository: string | undefined;
     integrations: string[];
@@ -36,5 +36,4 @@ export interface ModLinksManifestData {
 
 export class ModLinksData {
     mods: ModLinksManifestData[] = [];
-
 }

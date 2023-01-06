@@ -1,6 +1,6 @@
 
 import { Parser, ast } from 'tsxml'
-import { ModLinksData, ModLinksManifestData, currentPlatform, ModTag } from './types';
+import { ModLinksData, ModLinksManifestData, currentPlatform, ModTag } from './types.js';
 
 type ContainerNode = ast.ContainerNode<ast.Node>;
 type TextNode = ast.TextNode;

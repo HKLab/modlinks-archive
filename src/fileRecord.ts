@@ -4,7 +4,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync } fr
 import extra from "fs-extra";
 import { join, parse } from "path";
 import { URL } from "url";
-import { ModCollection, ModFileRecord, ModLinksManifestData } from "./types";
+import { ModCollection, ModFileRecord, ModLinksManifestData } from "./types.js";
 import { zip } from "compressing";
 
 
