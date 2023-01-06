@@ -3,7 +3,7 @@ import extra from 'fs-extra'
 import axios, { AxiosRequestHeaders } from 'axios';
 import { ModCollection, ModLinksData, ModLinksManifestData, ModVersionCollection } from './types.js';
 import { existsSync } from 'fs';
-import { parseModLinks } from './modlinks.js';
+import { parseModLinks, setShouldClearCache } from './modlinks.js';
 
 function getJsonPath() {
     return 'modlinks.json';
@@ -54,6 +54,9 @@ let modrecord: ModCollection = {
 if (existsSync(getJsonPath())) {
     modrecord = extra.readJSONSync(getJsonPath());
     console.log('Has cache');
+    extra.outputJSONSync(getJsonPath(), modrecord, {
+        spaces: 0
+    });
 }
 
 
@@ -184,18 +187,13 @@ await (async function () {
                 }
             }
         }
-        if (i % 50 == 0) {
-            extra.outputJSONSync(getJsonPath(), modrecord, {
-                spaces: 4
-            });
-        }
         console.log(`(${i++})${commit.commit.author.date} '${commit.commit.author.name}' ${commit.sha}`);
     }
     console.log(`${missing} is missing`);
     extra.outputJSONSync(getJsonPath(), modrecord, {
-        spaces: 4
+        spaces: 0
     });
-
+    setShouldClearCache();
 })();
 
 

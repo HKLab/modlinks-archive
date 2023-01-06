@@ -10,7 +10,8 @@
     "scripts": {
         "build": "tsc",
         "run-sync": "node ./dist/main.js",
-        "run-file": "node ./dist/fileRecord.js"
+        "run-file": "node ./dist/fileRecord.js",
+        "check-cache": "node ./dist/clearCache.js"
     },
     "devDependencies": {
         "@types/compression": "^1.7.2",

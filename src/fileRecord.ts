@@ -6,6 +6,7 @@ import { join, parse } from "path";
 import { URL } from "url";
 import { ModCollection, ModFileRecord, ModLinksManifestData } from "./types.js";
 import { zip } from "compressing";
+import { setShouldClearCache } from "./modlinks.js";
 
 
 const modlinks = extra.readJSONSync("modlinks.json") as ModCollection;
@@ -62,15 +63,17 @@ for (const key in modlinks.mods) {
             }
             el.ei_files = rec;
             extra.writeJSONSync("modlinks.json", modlinks, {
-                spaces: 4
+                spaces: 0
             });
+            setShouldClearCache();
         } catch (e) {
             if(el.isDeleted) {
                 rec.noSource = true;
                 el.ei_files = rec;
                 extra.writeJSONSync("modlinks.json", modlinks, {
-                    spaces: 4
+                    spaces: 0
                 });
+                setShouldClearCache();
             }
             console.error(e);
         }

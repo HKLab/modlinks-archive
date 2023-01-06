@@ -1,4 +1,5 @@
 
+import { existsSync, writeFileSync } from 'fs';
 import { Parser, ast } from 'tsxml'
 import { ModLinksData, ModLinksManifestData, currentPlatform, ModTag } from './types.js';
 
@@ -17,6 +18,12 @@ function getXmlNodeText(parent: ContainerNode, tagName: string): string | undefi
 
 function getCDATANodeText(parent: ContainerNode, tagName: string): string | undefined {
     return (findXmlNode<ContainerNode>(parent, tagName)?.childNodes[0] as (CDataNode | undefined))?.content;
+}
+
+export function setShouldClearCache() {
+    if(!existsSync("SHOULD_CLEAR_CACHE")) {
+        writeFileSync("SHOULD_CLEAR_CACHE", "1", 'utf-8');
+    }
 }
 
 export async function parseModLinks(content: string): Promise<ModLinksData> {
