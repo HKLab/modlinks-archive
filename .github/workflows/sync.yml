@@ -36,6 +36,3 @@ jobs:
           add: "modlinks.json"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Check cache
-        run: |
-          npm run check-cache
